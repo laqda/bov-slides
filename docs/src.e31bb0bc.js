@@ -37098,7 +37098,7 @@ var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 module.exports = {
-  "App": "_App_d074c"
+  "App": "_App_5f279"
 };
 },{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/Title/Title.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
@@ -37106,10 +37106,10 @@ var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 module.exports = {
-  "title": "_title_3ff0b",
-  "ghidra": "_ghidra_3ff0b",
-  "names": "_names_3ff0b",
-  "link": "_link_3ff0b"
+  "title": "_title_00215",
+  "ghidra": "_ghidra_00215",
+  "names": "_names_00215",
+  "link": "_link_00215"
 };
 },{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/Title/Ghidra.png":[function(require,module,exports) {
 module.exports = "/Ghidra.2c535ace.png";
@@ -37119,7 +37119,7 @@ var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 module.exports = {
-  "Slide": "_Slide_a6b48"
+  "Slide": "_Slide_f2152"
 };
 },{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Slide/Slide.js":[function(require,module,exports) {
 "use strict";
@@ -37190,8 +37190,8 @@ var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 module.exports = {
-  "Footer": "_Footer_abcc0",
-  "slideIndex": "_slideIndex_abcc0"
+  "Footer": "_Footer_bd95a",
+  "slideIndex": "_slideIndex_bd95a"
 };
 },{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Footer/Footer.js":[function(require,module,exports) {
 "use strict";
@@ -37231,10 +37231,10 @@ var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 module.exports = {
-  "Header": "_Header_d8327",
-  "HeaderLevel1": "_HeaderLevel1_d8327",
-  "HeaderLevel2": "_HeaderLevel2_d8327",
-  "selected": "_selected_d8327"
+  "Header": "_Header_44d95",
+  "HeaderLevel1": "_HeaderLevel1_44d95",
+  "HeaderLevel2": "_HeaderLevel2_44d95",
+  "selected": "_selected_44d95"
 };
 },{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Header/Header.js":[function(require,module,exports) {
 "use strict";
@@ -37383,480 +37383,66 @@ var findIndexes = function findIndexes(slideIndex, titles) {
 
   return -1;
 };
-},{"react":"../node_modules/react/index.js","./Header.css":"components/Header/Header.css","reveal.js":"../node_modules/reveal.js/js/reveal.js"}],"components/slides/Introduction/Introduction.css":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./Header.css":"components/Header/Header.css","reveal.js":"../node_modules/reveal.js/js/reveal.js"}],"components/slides/Server/Server.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 module.exports = {
-  "imgRsaConference": "_imgRsaConference_d505b",
-  "imgTweetReleaseGhidra": "_imgTweetReleaseGhidra_d505b",
-  "note": "_note_d505b",
-  "blocs": "_blocs_d505b",
-  "bloc": "_bloc_d505b",
-  "blocText": "_blocText_d505b",
-  "blocExample": "_blocExample_d505b",
-  "imgTweetGhidraCool": "_imgTweetGhidraCool_d505b",
-  "imgTweetGhidraCool1": "_imgTweetGhidraCool1_d505b",
-  "imgTweetGhidraCool2": "_imgTweetGhidraCool2_d505b",
-  "imgTweetGhidraCool3": "_imgTweetGhidraCool3_d505b",
-  "imgTweetGhidraCool4": "_imgTweetGhidraCool4_d505b"
+  "imgRsaConference": "_imgRsaConference_8a043",
+  "imgTweetReleaseGhidra": "_imgTweetReleaseGhidra_8a043",
+  "note": "_note_8a043",
+  "blocs": "_blocs_8a043",
+  "bloc": "_bloc_8a043",
+  "blocText": "_blocText_8a043",
+  "blocExample": "_blocExample_8a043",
+  "imgTweetGhidraCool": "_imgTweetGhidraCool_8a043",
+  "imgTweetGhidraCool1": "_imgTweetGhidraCool1_8a043",
+  "imgTweetGhidraCool2": "_imgTweetGhidraCool2_8a043",
+  "imgTweetGhidraCool3": "_imgTweetGhidraCool3_8a043",
+  "imgTweetGhidraCool4": "_imgTweetGhidraCool4_8a043"
 };
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/Introduction/rsa_conference.png":[function(require,module,exports) {
-module.exports = "/rsa_conference.6e4e0389.png";
-},{}],"components/slides/Introduction/twitter_release_ghidra.png":[function(require,module,exports) {
-module.exports = "/twitter_release_ghidra.43703b8d.png";
-},{}],"components/slides/Introduction/twitter_nsa_background.png":[function(require,module,exports) {
-module.exports = "/twitter_nsa_background.872134ef.png";
-},{}],"components/slides/Introduction/Introduction.js":[function(require,module,exports) {
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/Server/Server.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Introduction = exports.introductionTitles = void 0;
+exports.Server = exports.serverTitles = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _Introduction = _interopRequireDefault(require("./Introduction.css"));
+var _Server = _interopRequireDefault(require("./Server.css"));
 
 var _Slide = require("../../Slide/Slide");
 
-var _rsa_conference = _interopRequireDefault(require("./rsa_conference.png"));
-
-var _twitter_release_ghidra = _interopRequireDefault(require("./twitter_release_ghidra.png"));
-
-var _twitter_nsa_background = _interopRequireDefault(require("./twitter_nsa_background.png"));
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var introductionTitles = {
-  title: "Introduction",
+var serverTitles = {
+  title: "Server",
   subtitles: [{
-    title: "Reverse engineering",
-    length: 2
-  }, {
-    title: "RSA Conference",
+    title: "Graph",
     length: 2
   }]
 };
-exports.introductionTitles = introductionTitles;
+exports.serverTitles = serverTitles;
 
-var Introduction = function Introduction() {
+var Server = function Server() {
   return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_Slide.Slide, {
     "data-background-color": "#f6f8fa"
-  }, _react.default.createElement("h2", null, "Pourquoi faire de la r\xE9tro-ing\xE9nierie ?"), _react.default.createElement("div", null, _react.default.createElement("ul", null, _react.default.createElement("li", null, "comprendre le fonctionnement ", _react.default.createElement("span", {
-    className: "fragment"
-  }, "(fun)")), _react.default.createElement("li", null, "recherche de vuln\xE9rabilit\xE9s"), _react.default.createElement("li", null, "outrepasser le secret industriel"), _react.default.createElement("li", null, "contourner des protections*"))), _react.default.createElement("div", {
-    className: "fragment ".concat(_Introduction.default.note)
-  }, "* cracker le dernier call of duty ", _react.default.createElement("i", {
-    className: "em em-wink"
-  }))), _react.default.createElement(_Slide.Slide, {
-    "data-background-color": "#f6f8fa"
-  }, _react.default.createElement("div", {
-    className: _Introduction.default.blocs
-  }, _react.default.createElement("div", {
-    className: _Introduction.default.bloc
-  }, _react.default.createElement("h3", null, "\u2B1D \xA0\xA0Analyse statique"), _react.default.createElement("div", {
-    className: _Introduction.default.blocText
-  }, "\xE9tude approfondie du code source"), _react.default.createElement("div", {
-    className: _Introduction.default.blocExample
-  }, "ex: d\xE9sassembleur, d\xE9compilateur, ...")), _react.default.createElement("div", {
-    className: _Introduction.default.bloc
-  }, _react.default.createElement("h3", null, "\u2B1D \xA0\xA0Analyse dynamique"), _react.default.createElement("div", {
-    className: _Introduction.default.blocText
-  }, "ex\xE9cution et observations"), _react.default.createElement("div", {
-    className: _Introduction.default.blocExample
-  }, "ex: r\xE9seau, d\xE9bogueur, m\xE9moires, ...")))), _react.default.createElement(_Slide.Slide, {
-    "data-background-color": "#361a56"
-  }, _react.default.createElement("img", {
-    className: _Introduction.default.imgRsaConference,
-    src: _rsa_conference.default,
-    alt: "rsa-conference"
-  })), _react.default.createElement(_Slide.Slide, {
-    "data-background": _twitter_nsa_background.default
-  }, _react.default.createElement("img", {
-    className: _Introduction.default.imgTweetReleaseGhidra,
-    src: _twitter_release_ghidra.default,
-    alt: "tweet-release-ghidra"
-  })));
+  }, _react.default.createElement("h2", null, "TEST")));
 };
 
-exports.Introduction = Introduction;
-},{"react":"../node_modules/react/index.js","./Introduction.css":"components/slides/Introduction/Introduction.css","../../Slide/Slide":"components/Slide/Slide.js","./rsa_conference.png":"components/slides/Introduction/rsa_conference.png","./twitter_release_ghidra.png":"components/slides/Introduction/twitter_release_ghidra.png","./twitter_nsa_background.png":"components/slides/Introduction/twitter_nsa_background.png"}],"components/slides/Build/Build.css":[function(require,module,exports) {
+exports.Server = Server;
+},{"react":"../node_modules/react/index.js","./Server.css":"components/slides/Server/Server.css","../../Slide/Slide":"components/Slide/Slide.js"}],"components/slides/End/End.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 module.exports = {
-  "imgBuild": "_imgBuild_66994",
-  "imgLaunch": "_imgLaunch_66994",
-  "imgTweet": "_imgTweet_66994",
-  "logos": "_logos_66994",
-  "imgJava11": "_imgJava11_66994",
-  "imgGradle": "_imgGradle_66994",
-  "imgBison": "_imgBison_66994"
-};
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/Build/build.png":[function(require,module,exports) {
-module.exports = "/build.afedb025.png";
-},{}],"components/slides/Build/launch.png":[function(require,module,exports) {
-module.exports = "/launch.65316aaa.png";
-},{}],"components/slides/Build/tweet.png":[function(require,module,exports) {
-module.exports = "/tweet.5501e0ca.png";
-},{}],"components/slides/Build/tweet_background_black.png":[function(require,module,exports) {
-module.exports = "/tweet_background_black.bfabd4df.png";
-},{}],"components/slides/Build/bison.png":[function(require,module,exports) {
-module.exports = "/bison.b487199a.png";
-},{}],"components/slides/Build/java11.png":[function(require,module,exports) {
-module.exports = "/java11.6cac808f.png";
-},{}],"components/slides/Build/gradle.png":[function(require,module,exports) {
-module.exports = "/gradle.92e26279.png";
-},{}],"components/slides/Build/Build.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.Build = exports.buildTitles = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Build = _interopRequireDefault(require("./Build.css"));
-
-var _Slide = require("../../Slide/Slide");
-
-var _build = _interopRequireDefault(require("./build.png"));
-
-var _launch = _interopRequireDefault(require("./launch.png"));
-
-var _tweet = _interopRequireDefault(require("./tweet.png"));
-
-var _tweet_background_black = _interopRequireDefault(require("./tweet_background_black.png"));
-
-var _bison = _interopRequireDefault(require("./bison.png"));
-
-var _java = _interopRequireDefault(require("./java11.png"));
-
-var _gradle = _interopRequireDefault(require("./gradle.png"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var buildTitles = {
-  title: "Build the tool",
-  subtitles: [{
-    title: "Requirements",
-    length: 1
-  }, {
-    title: "Build",
-    length: 1
-  }, {
-    title: "Start",
-    length: 1
-  }, {
-    title: "Any backdoors ?",
-    length: 1
-  }]
-};
-exports.buildTitles = buildTitles;
-
-var Build = function Build() {
-  return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_Slide.Slide, {
-    "data-background-color": "#f6f8fa"
-  }, _react.default.createElement("div", {
-    className: _Build.default.logos
-  }, _react.default.createElement("img", {
-    className: _Build.default.imgBison,
-    src: _bison.default,
-    alt: "bison"
-  }), _react.default.createElement("img", {
-    className: _Build.default.imgJava11,
-    src: _java.default,
-    alt: "java11"
-  }), _react.default.createElement("img", {
-    className: _Build.default.imgGradle,
-    src: _gradle.default,
-    alt: "gradle"
-  }))), _react.default.createElement(_Slide.Slide, {
-    "data-background-color": "#f6f8fa"
-  }, _react.default.createElement("img", {
-    className: _Build.default.imgBuild,
-    src: _build.default,
-    alt: "build"
-  })), _react.default.createElement(_Slide.Slide, {
-    "data-background-color": "#f6f8fa"
-  }, _react.default.createElement("img", {
-    className: _Build.default.imgLaunch,
-    src: _launch.default,
-    alt: "launch"
-  })), _react.default.createElement(_Slide.Slide, {
-    "data-background": _tweet_background_black.default
-  }, _react.default.createElement("img", {
-    className: _Build.default.imgTweet,
-    src: _tweet.default,
-    alt: "tweet-backdoor-ghidra"
-  })));
-};
-
-exports.Build = Build;
-},{"react":"../node_modules/react/index.js","./Build.css":"components/slides/Build/Build.css","../../Slide/Slide":"components/Slide/Slide.js","./build.png":"components/slides/Build/build.png","./launch.png":"components/slides/Build/launch.png","./tweet.png":"components/slides/Build/tweet.png","./tweet_background_black.png":"components/slides/Build/tweet_background_black.png","./bison.png":"components/slides/Build/bison.png","./java11.png":"components/slides/Build/java11.png","./gradle.png":"components/slides/Build/gradle.png"}],"components/slides/Demo/Demo.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-module.exports = {
-  "ghidra": "_ghidra_f485a"
-};
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/Demo/Demo.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.Demo = exports.demoTitles = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Demo = _interopRequireDefault(require("./Demo.css"));
-
-var _Slide = require("../../Slide/Slide");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var demoTitles = {
-  title: "Demo",
-  subtitles: [{
-    title: "",
-    length: 1
-  }]
-};
-exports.demoTitles = demoTitles;
-
-var Demo = function Demo() {
-  return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_Slide.Slide, {
-    "data-background-color": "#361a56"
-  }, _react.default.createElement("h1", null, "this is ", _react.default.createElement("mark", {
-    style: {
-      backgroundColor: '#fff',
-      color: '#361a56'
-    }
-  }, "demo time"))));
-};
-
-exports.Demo = Demo;
-},{"react":"../node_modules/react/index.js","./Demo.css":"components/slides/Demo/Demo.css","../../Slide/Slide":"components/Slide/Slide.js"}],"components/slides/FollowingEvents/FollowingEvents.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-module.exports = {
-  "ghidra": "_ghidra_b158b",
-  "imgArchi": "_imgArchi_b158b",
-  "titleArchi": "_titleArchi_b158b",
-  "debug": "_debug_b158b",
-  "imgEclipse": "_imgEclipse_b158b",
-  "imgGhidra": "_imgGhidra_b158b",
-  "how": "_how_b158b",
-  "howPath": "_howPath_b158b"
-};
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/FollowingEvents/ghidra.png":[function(require,module,exports) {
-module.exports = "/ghidra.6eabcdf9.png";
-},{}],"components/slides/FollowingEvents/archi.png":[function(require,module,exports) {
-module.exports = "/archi.46895f86.png";
-},{}],"components/slides/FollowingEvents/debug_ghidra.png":[function(require,module,exports) {
-module.exports = "/debug_ghidra.fb8772a0.png";
-},{}],"components/slides/FollowingEvents/debug_eclipse.png":[function(require,module,exports) {
-module.exports = "/debug_eclipse.50d9bc66.png";
-},{}],"components/slides/FollowingEvents/FollowingEvents.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.FollowingEvents = exports.followingEventsTitles = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _FollowingEvents = _interopRequireDefault(require("./FollowingEvents.css"));
-
-var _Slide = require("../../Slide/Slide");
-
-var _ghidra = _interopRequireDefault(require("./ghidra.png"));
-
-var _archi = _interopRequireDefault(require("./archi.png"));
-
-var _debug_ghidra = _interopRequireDefault(require("./debug_ghidra.png"));
-
-var _debug_eclipse = _interopRequireDefault(require("./debug_eclipse.png"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var followingEventsTitles = {
-  title: "What next ?",
-  subtitles: [{
-    title: "Infrastructure",
-    length: 1
-  }, {
-    title: "Debug mode",
-    length: 1
-  }, {
-    title: "How it works",
-    length: 1
-  }]
-};
-exports.followingEventsTitles = followingEventsTitles;
-
-var FollowingEvents = function FollowingEvents() {
-  return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_Slide.Slide, {
-    "data-background": _archi.default
-  }, _react.default.createElement("h2", {
-    className: _FollowingEvents.default.titleArchi
-  }, "Architecture complexe")), _react.default.createElement(_Slide.Slide, {
-    "data-background-color": "#f6f8fa"
-  }, _react.default.createElement("div", {
-    className: _FollowingEvents.default.debug
-  }, _react.default.createElement("img", {
-    className: _FollowingEvents.default.imgGhidra,
-    src: _debug_ghidra.default,
-    alt: "debug_ghidra"
-  }), _react.default.createElement("div", null, _react.default.createElement("i", {
-    className: "em em-handshake"
-  })), _react.default.createElement("img", {
-    className: _FollowingEvents.default.imgEclipse,
-    src: _debug_eclipse.default,
-    alt: "debug_eclipse"
-  }))), _react.default.createElement(_Slide.Slide, {
-    "data-background-color": "#f6f8fa"
-  }, _react.default.createElement("h2", null, "\xC9tude des composants :"), _react.default.createElement("div", {
-    className: _FollowingEvents.default.how
-  }, _react.default.createElement("span", null, "\u2B1D \xA0\xA0Sleigh"), _react.default.createElement("span", {
-    className: _FollowingEvents.default.howPath
-  }, "Ghidra/Processors"), _react.default.createElement("span", null, "\u2B1D \xA0\xA0D\xE9sassembleur"), _react.default.createElement("span", {
-    className: _FollowingEvents.default.howPath
-  }, "Ghidra/Features/Base"), _react.default.createElement("span", null, "\u2B1D \xA0\xA0D\xE9compilateur"), _react.default.createElement("span", {
-    className: _FollowingEvents.default.howPath
-  }, "Ghidra/Features/Decompiler"))));
-};
-
-exports.FollowingEvents = FollowingEvents;
-},{"react":"../node_modules/react/index.js","./FollowingEvents.css":"components/slides/FollowingEvents/FollowingEvents.css","../../Slide/Slide":"components/Slide/Slide.js","./ghidra.png":"components/slides/FollowingEvents/ghidra.png","./archi.png":"components/slides/FollowingEvents/archi.png","./debug_ghidra.png":"components/slides/FollowingEvents/debug_ghidra.png","./debug_eclipse.png":"components/slides/FollowingEvents/debug_eclipse.png"}],"components/slides/Ghidra/Ghidra.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-module.exports = {
-  "dragon": "_dragon_64b32",
-  "logo": "_logo_64b32",
-  "horizontal_layout": "_horizontal_layout_64b32",
-  "imgDebugger": "_imgDebugger_64b32",
-  "sleigh": "_sleigh_64b32",
-  "shared": "_shared_64b32",
-  "imgShared": "_imgShared_64b32"
-};
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/Ghidra/logo.png":[function(require,module,exports) {
-module.exports = "/logo.ca2a57a8.png";
-},{}],"components/slides/Ghidra/debugger.png":[function(require,module,exports) {
-module.exports = "/debugger.d178df31.png";
-},{}],"components/slides/Ghidra/sleigh0.png":[function(require,module,exports) {
-module.exports = "/sleigh0.46ef360a.png";
-},{}],"components/slides/Ghidra/sleigh1.png":[function(require,module,exports) {
-module.exports = "/sleigh1.cabc9532.png";
-},{}],"components/slides/Ghidra/shared.png":[function(require,module,exports) {
-module.exports = "/shared.1e7922e1.png";
-},{}],"components/slides/Ghidra/Ghidra.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.Ghidra = exports.ghidraTitles = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Ghidra = _interopRequireDefault(require("./Ghidra.css"));
-
-var _Slide = require("../../Slide/Slide");
-
-var _logo = _interopRequireDefault(require("./logo.png"));
-
-var _debugger = _interopRequireDefault(require("./debugger.png"));
-
-var _sleigh = _interopRequireDefault(require("./sleigh0.png"));
-
-var _sleigh2 = _interopRequireDefault(require("./sleigh1.png"));
-
-var _shared = _interopRequireDefault(require("./shared.png"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var ghidraTitles = {
-  title: _react.default.createElement("span", null, "Ghidra ", _react.default.createElement("i", {
-    className: "em em-dragon ".concat(_Ghidra.default.dragon)
-  })),
-  // + tweets
-  subtitles: [{
-    title: "Overview",
-    length: 1
-  }, {
-    title: "P-Code",
-    length: 1
-  }, {
-    title: "Shared project",
-    length: 1
-  }, {
-    title: "Debugger",
-    length: 1
-  }]
-};
-exports.ghidraTitles = ghidraTitles;
-
-var Ghidra = function Ghidra() {
-  return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_Slide.Slide, {
-    "data-background-color": "#f6f8fa"
-  }, _react.default.createElement("div", {
-    className: _Ghidra.default.horizontal_layout
-  }, _react.default.createElement("div", null, _react.default.createElement("img", {
-    className: _Ghidra.default.logo,
-    src: _logo.default,
-    alt: "logo"
-  })), _react.default.createElement("ul", null, _react.default.createElement("li", null, "d\xE9velopp\xE9 depuis 10 ans"), _react.default.createElement("li", null, "cod\xE9 en Java et C++"), _react.default.createElement("li", null, "cross-plateform"), _react.default.createElement("li", null, "GUI et ligne de commande"), _react.default.createElement("li", null, "syst\xE8me de plugins (Java ou Python)"), _react.default.createElement("li", {
-    className: "fragment"
-  }, _react.default.createElement("b", null, "undo / redo"))))), _react.default.createElement(_Slide.Slide, {
-    "data-background-color": "#f6f8fa"
-  }, _react.default.createElement("img", {
-    className: _Ghidra.default.sleigh,
-    src: _sleigh.default,
-    alt: "sleigh"
-  }), _react.default.createElement("img", {
-    className: "fragment ".concat(_Ghidra.default.sleigh),
-    src: _sleigh2.default,
-    alt: "sleigh"
-  })), _react.default.createElement(_Slide.Slide, {
-    "data-background-color": "#f6f8fa"
-  }, _react.default.createElement("div", {
-    className: _Ghidra.default.shared
-  }, _react.default.createElement("img", {
-    className: _Ghidra.default.imgShared,
-    src: _shared.default,
-    alt: "shared"
-  }), _react.default.createElement("h5", null, "https://www.ghidra-server.org/"))), _react.default.createElement(_Slide.Slide, {
-    "data-background-color": "#f6f8fa"
-  }, _react.default.createElement("h3", null, "Quid de l'analyse dynamique ?"), _react.default.createElement("img", {
-    className: _Ghidra.default.imgDebugger,
-    src: _debugger.default,
-    alt: "debugger"
-  })));
-};
-
-exports.Ghidra = Ghidra;
-},{"react":"../node_modules/react/index.js","./Ghidra.css":"components/slides/Ghidra/Ghidra.css","../../Slide/Slide":"components/Slide/Slide.js","./logo.png":"components/slides/Ghidra/logo.png","./debugger.png":"components/slides/Ghidra/debugger.png","./sleigh0.png":"components/slides/Ghidra/sleigh0.png","./sleigh1.png":"components/slides/Ghidra/sleigh1.png","./shared.png":"components/slides/Ghidra/shared.png"}],"components/slides/End/End.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-module.exports = {
-  "title": "_title_34176",
-  "ghidra": "_ghidra_34176",
-  "names": "_names_34176"
+  "title": "_title_ea9bf",
+  "ghidra": "_ghidra_ea9bf",
+  "names": "_names_ea9bf"
 };
 },{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/End/Ghidra.png":[function(require,module,exports) {
 module.exports = "/Ghidra.b0fb4048.png";
@@ -37915,15 +37501,7 @@ var _Header = require("../Header/Header");
 
 var _reveal = _interopRequireDefault(require("reveal.js"));
 
-var _Introduction = require("../slides/Introduction/Introduction");
-
-var _Build = require("../slides/Build/Build");
-
-var _Demo = require("../slides/Demo/Demo");
-
-var _FollowingEvents = require("../slides/FollowingEvents/FollowingEvents");
-
-var _Ghidra = require("../slides/Ghidra/Ghidra");
+var _Server = require("../slides/Server/Server");
 
 var _End = require("../slides/End/End");
 
@@ -37941,7 +37519,7 @@ function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) ||
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
-var hideBarsOnSlides = [0, 17];
+var hideBarsOnSlides = [0, 17]; // TODO
 
 var App = function App() {
   var slideIndex = useSlideIndex();
@@ -37952,10 +37530,10 @@ var App = function App() {
   }, _react.default.createElement(_Header.Header, {
     slideIndex: slideIndex,
     hideOnSlides: hideBarsOnSlides,
-    titles: [_Introduction.introductionTitles, _Ghidra.ghidraTitles, _Build.buildTitles, _Demo.demoTitles, _FollowingEvents.followingEventsTitles]
+    titles: [_Server.serverTitles]
   }), _react.default.createElement("div", {
     className: "slides"
-  }, _react.default.createElement(_Title.Title, null), _react.default.createElement(_Introduction.Introduction, null), _react.default.createElement(_Ghidra.Ghidra, null), _react.default.createElement(_Build.Build, null), _react.default.createElement(_Demo.Demo, null), _react.default.createElement(_FollowingEvents.FollowingEvents, null), _react.default.createElement(_End.End, null)), _react.default.createElement(_Footer.Footer, {
+  }, _react.default.createElement(_Title.Title, null), _react.default.createElement(_Server.Server, null), _react.default.createElement(_End.End, null)), _react.default.createElement(_Footer.Footer, {
     slideIndex: slideIndex,
     hideOnSlides: hideBarsOnSlides
   })));
@@ -37978,7 +37556,7 @@ var useSlideIndex = function useSlideIndex() {
   }, []);
   return slideIndex;
 };
-},{"react":"../node_modules/react/index.js","./App.css":"components/App/App.css","../slides/Title/Title":"components/slides/Title/Title.js","../Footer/Footer":"components/Footer/Footer.js","../Header/Header":"components/Header/Header.js","reveal.js":"../node_modules/reveal.js/js/reveal.js","../slides/Introduction/Introduction":"components/slides/Introduction/Introduction.js","../slides/Build/Build":"components/slides/Build/Build.js","../slides/Demo/Demo":"components/slides/Demo/Demo.js","../slides/FollowingEvents/FollowingEvents":"components/slides/FollowingEvents/FollowingEvents.js","../slides/Ghidra/Ghidra":"components/slides/Ghidra/Ghidra.js","../slides/End/End":"components/slides/End/End.js"}],"index.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./App.css":"components/App/App.css","../slides/Title/Title":"components/slides/Title/Title.js","../Footer/Footer":"components/Footer/Footer.js","../Header/Header":"components/Header/Header.js","reveal.js":"../node_modules/reveal.js/js/reveal.js","../slides/Server/Server":"components/slides/Server/Server.js","../slides/End/End":"components/slides/End/End.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -38040,7 +37618,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36453" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36411" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
