@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./End.css";
-import cover from "./Ghidra.png";
 import {Slide} from "../../Slide/Slide";
 
 export const End = () => {
