@@ -1,0 +1,54 @@
+.dragon {
+    width: 1em;
+    height: 1em;
+}
+
+.logo {
+    box-shadow: none !important;
+    background: none !important;
+    width: 150%;
+    margin-bottom: 50px !important;
+}
+
+.horizontal_layout {
+    display: flex;
+}
+
+.horizontal_layout > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.horizontal_layout > ul {
+    padding-left: 50px !important;
+    flex: 3;
+    white-space: nowrap;
+}
+
+.imgDebugger {
+    width: 80%;
+}
+
+.sleigh {
+    position: absolute;
+    top: calc(50%);
+    margin: 0 !important;
+    /*width: 80vw;*/
+    /*height: 60vh;*/
+    max-height: none !important;
+}
+
+.shared > h5 {
+    /*margin: 100px;*/
+    /*box-sizing: border-box;*/
+    color: #555 !important;
+    font-size: 0.8em !important;
+}
+
+.imgShared {
+    /*border: 2px solid #222 !important;*/
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.15) !important;
+    height: 40vh;
+}

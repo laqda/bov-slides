@@ -1,0 +1,63 @@
+.ghidra {
+    background-color: rgba(255, 255, 255, 1);
+    color: #361a56;
+    padding: 60px 53px;
+    box-sizing: border-box;
+    font-size: 49px;
+    /*box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);*/
+}
+
+.imgArchi {
+}
+
+.titleArchi {
+    font-size: 1.9em !important;
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px 60px;
+}
+
+.debug {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.debug > div {
+    margin: 0 90px;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.debug > div > i {
+    position: relative;
+    /*bottom: -35px;*/
+}
+
+.imgEclipse, .imgGhidra {
+    box-shadow: none !important;
+    background: none !important;
+    width: 250px;
+}
+
+.imgEclipse {
+}
+
+.imgGhidra {
+}
+
+.how {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding-right: 25px;
+}
+
+.howPath {
+    color: #555 !important;
+    font-size: 28px;
+    margin-left: 40px;
+    font-style: italic;
+}
