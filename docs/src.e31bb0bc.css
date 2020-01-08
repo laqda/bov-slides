@@ -1,6 +1,6 @@
 :root {
     --main-color: #222;
-    --secondary-color: #a80000;
+    --secondary-color: #555;
 
     --header-font-size: 26px;
     --header-level1-bg-color: var(--main-color);
@@ -2114,7 +2114,7 @@ body {
 }
 
 ._link_00215 {
-    color: #bbb !important;
+    color: #999 !important;
     font-size: 21px;
 }
 

@@ -37111,9 +37111,7 @@ module.exports = {
   "names": "_names_00215",
   "link": "_link_00215"
 };
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/Title/Ghidra.png":[function(require,module,exports) {
-module.exports = "/Ghidra.2c535ace.png";
-},{}],"components/Slide/Slide.css":[function(require,module,exports) {
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Slide/Slide.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -37161,30 +37159,24 @@ var _react = _interopRequireDefault(require("react"));
 
 var _Title = _interopRequireDefault(require("./Title.css"));
 
-var _Ghidra = _interopRequireDefault(require("./Ghidra.png"));
-
 var _Slide = require("../../Slide/Slide");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Title = function Title() {
   return _react.default.createElement(_Slide.Slide, {
-    "data-background-color": "#361a56"
+    "data-background-color": "#222"
   }, _react.default.createElement("div", {
     className: _Title.default.title
-  }, "Soutenance interm\xE9diaire"), _react.default.createElement("img", {
-    className: _Title.default.ghidra,
-    src: _Ghidra.default,
-    alt: "cover-ghidra"
-  }), _react.default.createElement("div", {
+  }, "R\xE9sultats d'\xE9tude"), _react.default.createElement("div", null, "TODO & Pressoare"), _react.default.createElement("div", {
     className: _Title.default.names
-  }, "sous la direction de ", _react.default.createElement("b", null, "M. Fr\xE9d\xE9ric Tronel"), _react.default.createElement("br", null), _react.default.createElement("b", null, "Marianne FAURE"), " & ", _react.default.createElement("b", null, "Quentin MICHEL"), _react.default.createElement("br", null), _react.default.createElement("span", {
+  }, _react.default.createElement("b", null, "Marianne FAURE"), " & ", _react.default.createElement("b", null, "Quentin MICHEL"), _react.default.createElement("br", null), _react.default.createElement("span", {
     className: _Title.default.link
-  }, "https://quentm74.github.io/ghidra-slides-midterm/index.html#/")));
+  }, "https://quentm74.github.io/bov-slides/index.html#/")));
 };
 
 exports.Title = Title;
-},{"react":"../node_modules/react/index.js","./Title.css":"components/slides/Title/Title.css","./Ghidra.png":"components/slides/Title/Ghidra.png","../../Slide/Slide":"components/Slide/Slide.js"}],"components/Footer/Footer.css":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./Title.css":"components/slides/Title/Title.css","../../Slide/Slide":"components/Slide/Slide.js"}],"components/Footer/Footer.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
