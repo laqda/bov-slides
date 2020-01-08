@@ -37435,9 +37435,7 @@ module.exports = {
   "ghidra": "_ghidra_ea9bf",
   "names": "_names_ea9bf"
 };
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/End/Ghidra.png":[function(require,module,exports) {
-module.exports = "/Ghidra.b0fb4048.png";
-},{}],"components/slides/End/End.js":[function(require,module,exports) {
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/End/End.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -37448,8 +37446,6 @@ exports.End = void 0;
 var _react = _interopRequireDefault(require("react"));
 
 var _End = _interopRequireDefault(require("./End.css"));
-
-var _Ghidra = _interopRequireDefault(require("./Ghidra.png"));
 
 var _Slide = require("../../Slide/Slide");
 
@@ -37468,11 +37464,11 @@ var End = function End() {
       backgroundColor: '#ffff00',
       color: "black"
     }
-  }, "\xE9coute")), _react.default.createElement("h5", null, "https://github.com/quentm74/ghidra-slides-midterm")));
+  }, "\xE9coute"))));
 };
 
 exports.End = End;
-},{"react":"../node_modules/react/index.js","./End.css":"components/slides/End/End.css","./Ghidra.png":"components/slides/End/Ghidra.png","../../Slide/Slide":"components/Slide/Slide.js"}],"components/App/App.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./End.css":"components/slides/End/End.css","../../Slide/Slide":"components/Slide/Slide.js"}],"components/App/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -37609,7 +37605,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42871" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40247" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
