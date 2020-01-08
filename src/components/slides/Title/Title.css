@@ -3,11 +3,8 @@
     font-size: 70px;
     font-weight: bold;
 }
-
-.ghidra {
-    width: 46vh;
-    box-shadow: none !important;
-    background: none !important;
+.title > mark {
+    background-color: var(--third-color);
 }
 
 .names {

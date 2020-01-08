@@ -5,11 +5,11 @@ import {Slide} from "../../Slide/Slide";
 export const Title = () => {
   return (
     <Slide data-background-color="#222">
-      <div className={styles.title}>
-        Résultats d'étude
-      </div>
+      <h1 className={styles.title}>
+        <mark>Résultats d'étude</mark>
+      </h1>
       <div>
-        TODO & Pressoare
+        //TODO & Pressoare
       </div>
       <div className={styles.names}>
         <b>Marianne FAURE</b> & <b>Quentin MICHEL</b><br/>

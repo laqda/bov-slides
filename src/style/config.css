@@ -1,6 +1,7 @@
 :root {
     --main-color: #222;
     --secondary-color: #555;
+    --third-color: #ffff00;
 
     --header-font-size: 26px;
     --header-level1-bg-color: var(--main-color);

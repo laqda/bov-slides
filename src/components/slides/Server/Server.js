@@ -3,10 +3,10 @@ import styles from "./Server.css";
 import {Slide} from "../../Slide/Slide";
 
 export const serverTitles = {
-  title: "Server",
+  title: "Fonctionnement serveur",
   subtitles: [
     {
-      title: "Graph",
+      title: "Vue graphique",
       length: 2,
     },
   ],

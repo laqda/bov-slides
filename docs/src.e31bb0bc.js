@@ -37107,7 +37107,6 @@ module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 module.exports = {
   "title": "_title_00215",
-  "ghidra": "_ghidra_00215",
   "names": "_names_00215",
   "link": "_link_00215"
 };
@@ -37166,9 +37165,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Title = function Title() {
   return _react.default.createElement(_Slide.Slide, {
     "data-background-color": "#222"
-  }, _react.default.createElement("div", {
+  }, _react.default.createElement("h1", {
     className: _Title.default.title
-  }, "R\xE9sultats d'\xE9tude"), _react.default.createElement("div", null, "TODO & Pressoare"), _react.default.createElement("div", {
+  }, _react.default.createElement("mark", null, "R\xE9sultats d'\xE9tude")), _react.default.createElement("div", null, "//TODO & Pressoare"), _react.default.createElement("div", {
     className: _Title.default.names
   }, _react.default.createElement("b", null, "Marianne FAURE"), " & ", _react.default.createElement("b", null, "Quentin MICHEL"), _react.default.createElement("br", null), _react.default.createElement("span", {
     className: _Title.default.link
@@ -37211,7 +37210,7 @@ var Footer = function Footer(_ref) {
       hideOnSlides = _ref$hideOnSlides === void 0 ? [] : _ref$hideOnSlides;
   return !hideOnSlides.includes(slideIndex) ? _react.default.createElement("div", {
     className: _Footer.default.Footer
-  }, _react.default.createElement("div", null, "Ghidra - Soutenance interm\xE9diaire"), _react.default.createElement("div", {
+  }, _react.default.createElement("div", null, "//TODO - R\xE9sultats d'\xE9tude"), _react.default.createElement("div", {
     className: _Footer.default.slideIndex
   }, _react.default.createElement("b", null, slideIndex + 1), " / ", _reveal.default.getTotalSlides())) : null;
 };
@@ -37411,9 +37410,9 @@ var _Slide = require("../../Slide/Slide");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var serverTitles = {
-  title: "Server",
+  title: "Fonctionnement serveur",
   subtitles: [{
-    title: "Graph",
+    title: "Vue graphique",
     length: 2
   }]
 };
@@ -37458,7 +37457,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var End = function End() {
   return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_Slide.Slide, {
-    "data-background-color": "#361a56"
+    "data-background-color": "#222"
   }, _react.default.createElement("h1", {
     style: {
       fontSize: '2.2em',
@@ -37466,8 +37465,8 @@ var End = function End() {
     }
   }, "Merci de votre ", _react.default.createElement("mark", {
     style: {
-      backgroundColor: '#fff',
-      color: "#361a56"
+      backgroundColor: '#ffff00',
+      color: "black"
     }
   }, "\xE9coute")), _react.default.createElement("h5", null, "https://github.com/quentm74/ghidra-slides-midterm")));
 };
@@ -37610,7 +37609,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36411" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42871" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

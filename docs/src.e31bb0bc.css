@@ -1,6 +1,7 @@
 :root {
     --main-color: #222;
     --secondary-color: #555;
+    --third-color: #ffff00;
 
     --header-font-size: 26px;
     --header-level1-bg-color: var(--main-color);
@@ -2100,11 +2101,8 @@ body {
     font-size: 70px;
     font-weight: bold;
 }
-
-._ghidra_00215 {
-    width: 46vh;
-    box-shadow: none !important;
-    background: none !important;
+._title_00215 > mark {
+    background-color: var(--third-color);
 }
 
 ._names_00215 {

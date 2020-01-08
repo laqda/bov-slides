@@ -6,7 +6,7 @@ export const Footer = ({slideIndex, hideOnSlides = []}) => {
   return !hideOnSlides.includes(slideIndex) ? (
     <div className={styles.Footer}>
       <div>
-        Ghidra - Soutenance intermédiaire
+        //TODO - Résultats d'étude
       </div>
       <div className={styles.slideIndex}>
         <b>{slideIndex + 1}</b> / {Reveal.getTotalSlides()}
