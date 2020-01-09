@@ -9,7 +9,7 @@ export const Title = () => {
         <mark>Résultats d'étude</mark>
       </h1>
       <div>
-        //TODO & Pressoare
+        Pressoare
       </div>
       <div className={styles.names}>
         <b>Marianne FAURE</b> & <b>Quentin MICHEL</b><br/>
