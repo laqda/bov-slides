@@ -7,7 +7,7 @@ export const networkTitles = {
   subtitles: [
     {
       title: "",
-      length: 2,
+      length: 1,
     },
   ],
 };

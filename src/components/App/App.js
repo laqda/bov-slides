@@ -6,6 +6,7 @@ import {Header} from "../Header/Header";
 import Reveal from "reveal.js";
 import {Network, networkTitles} from "../slides/Network/Network";
 import {End} from "../slides/End/End";
+import {Server, serverTitles} from "../slides/Server/Server";
 
 const hideBarsOnSlides = [0, 17]; // TODO
 
@@ -16,10 +17,12 @@ export const App = () => {
       <div className="reveal">
         <Header slideIndex={slideIndex} hideOnSlides={hideBarsOnSlides} titles={[
           networkTitles,
+          serverTitles,
         ]}/>
         <div className="slides">
           <Title/>
           <Network/>
+          <Server/>
           <End/>
         </div>
         <Footer slideIndex={slideIndex} hideOnSlides={hideBarsOnSlides}/>
