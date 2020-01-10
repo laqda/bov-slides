@@ -37486,20 +37486,31 @@ var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 module.exports = {
-  "imgRsaConference": "_imgRsaConference_8a043",
-  "imgTweetReleaseGhidra": "_imgTweetReleaseGhidra_8a043",
-  "note": "_note_8a043",
-  "blocs": "_blocs_8a043",
-  "bloc": "_bloc_8a043",
-  "blocText": "_blocText_8a043",
-  "blocExample": "_blocExample_8a043",
-  "imgTweetGhidraCool": "_imgTweetGhidraCool_8a043",
-  "imgTweetGhidraCool1": "_imgTweetGhidraCool1_8a043",
-  "imgTweetGhidraCool2": "_imgTweetGhidraCool2_8a043",
-  "imgTweetGhidraCool3": "_imgTweetGhidraCool3_8a043",
-  "imgTweetGhidraCool4": "_imgTweetGhidraCool4_8a043"
+  "server_img": "_server_img_8a043"
 };
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/Server/Server.js":[function(require,module,exports) {
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/Server/server_buffer.svg":[function(require,module,exports) {
+module.exports = "/server_buffer.d32cf42e.svg";
+},{}],"components/slides/Server/server_client.svg":[function(require,module,exports) {
+module.exports = "/server_client.912b8eee.svg";
+},{}],"components/slides/Server/server_command.svg":[function(require,module,exports) {
+module.exports = "/server_command.0624604f.svg";
+},{}],"components/slides/Server/server_default.svg":[function(require,module,exports) {
+module.exports = "/server_default.1a615a49.svg";
+},{}],"components/slides/Server/server_echo.svg":[function(require,module,exports) {
+module.exports = "/server_echo.32f84817.svg";
+},{}],"components/slides/Server/server_exists.svg":[function(require,module,exports) {
+module.exports = "/server_exists.625c840a.svg";
+},{}],"components/slides/Server/server_get.svg":[function(require,module,exports) {
+module.exports = "/server_get.0c300b29.svg";
+},{}],"components/slides/Server/server_main.svg":[function(require,module,exports) {
+module.exports = "/server_main.544f9087.svg";
+},{}],"components/slides/Server/server_put.svg":[function(require,module,exports) {
+module.exports = "/server_put.7e51f359.svg";
+},{}],"components/slides/Server/server_quit.svg":[function(require,module,exports) {
+module.exports = "/server_quit.911de4b1.svg";
+},{}],"components/slides/Server/server_server.svg":[function(require,module,exports) {
+module.exports = "/server_server.eaa7e0b0.svg";
+},{}],"components/slides/Server/Server.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -37512,6 +37523,28 @@ var _react = _interopRequireDefault(require("react"));
 var _Server = _interopRequireDefault(require("./Server.css"));
 
 var _Slide = require("../../Slide/Slide");
+
+var _server_buffer = _interopRequireDefault(require("./server_buffer.svg"));
+
+var _server_client = _interopRequireDefault(require("./server_client.svg"));
+
+var _server_command = _interopRequireDefault(require("./server_command.svg"));
+
+var _server_default = _interopRequireDefault(require("./server_default.svg"));
+
+var _server_echo = _interopRequireDefault(require("./server_echo.svg"));
+
+var _server_exists = _interopRequireDefault(require("./server_exists.svg"));
+
+var _server_get = _interopRequireDefault(require("./server_get.svg"));
+
+var _server_main = _interopRequireDefault(require("./server_main.svg"));
+
+var _server_put = _interopRequireDefault(require("./server_put.svg"));
+
+var _server_quit = _interopRequireDefault(require("./server_quit.svg"));
+
+var _server_server = _interopRequireDefault(require("./server_server.svg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -37530,13 +37563,57 @@ exports.serverTitles = serverTitles;
 var Server = function Server() {
   return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_Slide.Slide, {
     "data-background-color": "#f6f8fa"
-  }, _react.default.createElement("h2", null, "TEST")), _react.default.createElement(_Slide.Slide, {
+  }, _react.default.createElement("img", {
+    alt: "server",
+    className: "".concat(_Server.default.server_img),
+    src: _server_default.default
+  }), _react.default.createElement("img", {
+    alt: "server",
+    className: "fragment ".concat(_Server.default.server_img),
+    src: _server_main.default
+  }), _react.default.createElement("img", {
+    alt: "server",
+    className: "fragment ".concat(_Server.default.server_img),
+    src: _server_server.default
+  }), _react.default.createElement("img", {
+    alt: "server",
+    className: "fragment ".concat(_Server.default.server_img),
+    src: _server_client.default
+  }), _react.default.createElement("img", {
+    alt: "server",
+    className: "fragment ".concat(_Server.default.server_img),
+    src: _server_buffer.default
+  }), _react.default.createElement("img", {
+    alt: "server",
+    className: "fragment ".concat(_Server.default.server_img),
+    src: _server_command.default
+  }), _react.default.createElement("img", {
+    alt: "server",
+    className: "fragment ".concat(_Server.default.server_img),
+    src: _server_get.default
+  }), _react.default.createElement("img", {
+    alt: "server",
+    className: "fragment ".concat(_Server.default.server_img),
+    src: _server_exists.default
+  }), _react.default.createElement("img", {
+    alt: "server",
+    className: "fragment ".concat(_Server.default.server_img),
+    src: _server_put.default
+  }), _react.default.createElement("img", {
+    alt: "server",
+    className: "fragment ".concat(_Server.default.server_img),
+    src: _server_quit.default
+  }), _react.default.createElement("img", {
+    alt: "server",
+    className: "fragment ".concat(_Server.default.server_img),
+    src: _server_echo.default
+  })), _react.default.createElement(_Slide.Slide, {
     "data-background-color": "#f6f8fa"
   }, _react.default.createElement("h2", null, "TEST")));
 };
 
 exports.Server = Server;
-},{"react":"../node_modules/react/index.js","./Server.css":"components/slides/Server/Server.css","../../Slide/Slide":"components/Slide/Slide.js"}],"components/slides/Payload/Payload.css":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./Server.css":"components/slides/Server/Server.css","../../Slide/Slide":"components/Slide/Slide.js","./server_buffer.svg":"components/slides/Server/server_buffer.svg","./server_client.svg":"components/slides/Server/server_client.svg","./server_command.svg":"components/slides/Server/server_command.svg","./server_default.svg":"components/slides/Server/server_default.svg","./server_echo.svg":"components/slides/Server/server_echo.svg","./server_exists.svg":"components/slides/Server/server_exists.svg","./server_get.svg":"components/slides/Server/server_get.svg","./server_main.svg":"components/slides/Server/server_main.svg","./server_put.svg":"components/slides/Server/server_put.svg","./server_quit.svg":"components/slides/Server/server_quit.svg","./server_server.svg":"components/slides/Server/server_server.svg"}],"components/slides/Payload/Payload.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
