@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Network.css";
 import {Slide} from "../../Slide/Slide";
+import trace from "./trace.png";
 
 export const networkTitles = {
   title: "Analyse réseau",
@@ -20,7 +21,7 @@ export const Network = () => {
   return (
     <React.Fragment>
       <Slide data-background-color="#f6f8fa">
-        <h2>TEST</h2>
+        <img src={trace} alt="trace"/>
       </Slide>
       <Slide data-background-color="#f6f8fa">
         <h2>TEST</h2>

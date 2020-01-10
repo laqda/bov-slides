@@ -16,5 +16,5 @@ Reveal.initialize({
   overview: false,
   hash: true,
   transitionSpeed: 'fast',
-  // margin: -0.3, // to adjust when generating a pdf --- .yarn/bin/decktape http://localhost:1234/#/ Courses/A3/SIS/Ghidra/slides/test.pdf --slides 1-3
+  margin: -0.3, // to adjust when generating a pdf --- .yarn/bin/decktape http://localhost:1234/#/ Courses/A3/SIS/Ghidra/slides/test.pdf --slides 1-3
 });
