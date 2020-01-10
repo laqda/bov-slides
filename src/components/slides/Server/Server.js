@@ -21,6 +21,10 @@ export const serverTitles = {
       length: 1,
     },
     {
+      title: "ECHO %x%x%x%x %x",
+      length: 1,
+    },
+    {
       title: "Gestion des buffers",
       length: 1,
     },
