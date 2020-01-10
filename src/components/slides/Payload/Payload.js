@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Payload.css";
 import {Slide} from "../../Slide/Slide";
+import ghidra from "./ghidra.png";
 
 export const payloadTitles = {
   title: "Payload",
@@ -13,10 +14,6 @@ export const payloadTitles = {
       title: "Analyse Ghidra",
       length: 1,
     },
-    {
-      title: "Suite d'évènements",
-      length: 1,
-    },
   ],
 };
 
@@ -27,10 +24,7 @@ export const Payload = () => {
         <h2>TEST</h2>
       </Slide>
       <Slide data-background-color="#f6f8fa">
-        <h2>TEST</h2>
-      </Slide>
-      <Slide data-background-color="#f6f8fa">
-        <h2>TEST</h2>
+        <img className={styles.ghidra} alt="ghidra" src={ghidra}/>
       </Slide>
     </React.Fragment>
   );
