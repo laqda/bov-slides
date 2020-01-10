@@ -2188,64 +2188,18 @@ body {
     opacity: 1;
 }
 
-._imgRsaConference_6c862 {
-}
-
-._imgTweetReleaseGhidra_6c862 {
-    width: 50%;
-    border-radius: 2px;
-}
-
-._note_6c862 {
-    margin-top: 30px;
-    color: #444;
-    font-size: 25px;
-}
-
-._blocs_6c862 > * {
-    margin-bottom: 30px;
-}
-
-._blocs_6c862:last-child {
-    margin-bottom: 0;
-}
-
-._bloc_6c862 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: start;
-}
-
-._blocText_6c862, ._blocExample_6c862 {
-    margin-left: 55px;
-}
-
-._blocExample_6c862 {
-    font-size: 30px;
-    color: #888;
-    font-style: italic;
-}
-
-._imgTweetGhidraCool_6c862 {
+._attack_img_6c862 {
+    max-width: none !important;
+    max-height: none !important;
     position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #f6f8fa !important;
+    box-shadow: none !important;
+    width: 50vw;
 }
-
-._imgTweetGhidraCool1_6c862 {
-}
-
-._imgTweetGhidraCool2_6c862 {
-    width: 80%;
-}
-
-._imgTweetGhidraCool3_6c862 {
-    width: 70%;
-}
-
-._imgTweetGhidraCool4_6c862 {
-    width: 73%;
-}
-
 ._title_ea9bf {
     padding-bottom: 40px;
     font-size: 70px;

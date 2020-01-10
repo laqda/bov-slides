@@ -37380,21 +37380,28 @@ var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 module.exports = {
-  "imgRsaConference": "_imgRsaConference_6c862",
-  "imgTweetReleaseGhidra": "_imgTweetReleaseGhidra_6c862",
-  "note": "_note_6c862",
-  "blocs": "_blocs_6c862",
-  "bloc": "_bloc_6c862",
-  "blocText": "_blocText_6c862",
-  "blocExample": "_blocExample_6c862",
-  "imgTweetGhidraCool": "_imgTweetGhidraCool_6c862",
-  "imgTweetGhidraCool1": "_imgTweetGhidraCool1_6c862",
-  "imgTweetGhidraCool2": "_imgTweetGhidraCool2_6c862",
-  "imgTweetGhidraCool3": "_imgTweetGhidraCool3_6c862",
-  "imgTweetGhidraCool4": "_imgTweetGhidraCool4_6c862"
+  "attack_img": "_attack_img_6c862"
 };
 },{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/Network/trace.png":[function(require,module,exports) {
 module.exports = "/trace.fc2ab05b.png";
+},{}],"components/slides/Network/AttackFlow1.svg":[function(require,module,exports) {
+module.exports = "/AttackFlow1.d692cc64.svg";
+},{}],"components/slides/Network/AttackFlow2.svg":[function(require,module,exports) {
+module.exports = "/AttackFlow2.8de877bb.svg";
+},{}],"components/slides/Network/AttackFlow3.svg":[function(require,module,exports) {
+module.exports = "/AttackFlow3.eb0bb0dd.svg";
+},{}],"components/slides/Network/AttackFlow4.svg":[function(require,module,exports) {
+module.exports = "/AttackFlow4.8d474bbe.svg";
+},{}],"components/slides/Network/AttackFlow5.svg":[function(require,module,exports) {
+module.exports = "/AttackFlow5.6b3a2582.svg";
+},{}],"components/slides/Network/AttackFlow6.svg":[function(require,module,exports) {
+module.exports = "/AttackFlow6.9945103b.svg";
+},{}],"components/slides/Network/AttackFlow7.svg":[function(require,module,exports) {
+module.exports = "/AttackFlow7.a1c0bb45.svg";
+},{}],"components/slides/Network/AttackFlow8.svg":[function(require,module,exports) {
+module.exports = "/AttackFlow8.5a20d4d1.svg";
+},{}],"components/slides/Network/AttackFlow9.svg":[function(require,module,exports) {
+module.exports = "/AttackFlow9.b89946fd.svg";
 },{}],"components/slides/Network/Network.js":[function(require,module,exports) {
 "use strict";
 
@@ -37410,6 +37417,24 @@ var _Network = _interopRequireDefault(require("./Network.css"));
 var _Slide = require("../../Slide/Slide");
 
 var _trace = _interopRequireDefault(require("./trace.png"));
+
+var _AttackFlow = _interopRequireDefault(require("./AttackFlow1.svg"));
+
+var _AttackFlow2 = _interopRequireDefault(require("./AttackFlow2.svg"));
+
+var _AttackFlow3 = _interopRequireDefault(require("./AttackFlow3.svg"));
+
+var _AttackFlow4 = _interopRequireDefault(require("./AttackFlow4.svg"));
+
+var _AttackFlow5 = _interopRequireDefault(require("./AttackFlow5.svg"));
+
+var _AttackFlow6 = _interopRequireDefault(require("./AttackFlow6.svg"));
+
+var _AttackFlow7 = _interopRequireDefault(require("./AttackFlow7.svg"));
+
+var _AttackFlow8 = _interopRequireDefault(require("./AttackFlow8.svg"));
+
+var _AttackFlow9 = _interopRequireDefault(require("./AttackFlow9.svg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -37433,11 +37458,47 @@ var Network = function Network() {
     alt: "trace"
   })), _react.default.createElement(_Slide.Slide, {
     "data-background-color": "#f6f8fa"
-  }, _react.default.createElement("h2", null, "TEST")));
+  }, _react.default.createElement("img", {
+    alt: "attack",
+    className: "".concat(_Network.default.attack_img),
+    src: _AttackFlow.default
+  }), _react.default.createElement("img", {
+    alt: "attack",
+    className: "fragment ".concat(_Network.default.attack_img),
+    src: _AttackFlow2.default
+  }), _react.default.createElement("img", {
+    alt: "attack",
+    className: "fragment ".concat(_Network.default.attack_img),
+    src: _AttackFlow3.default
+  }), _react.default.createElement("img", {
+    alt: "attack",
+    className: "fragment ".concat(_Network.default.attack_img),
+    src: _AttackFlow4.default
+  }), _react.default.createElement("img", {
+    alt: "attack",
+    className: "fragment ".concat(_Network.default.attack_img),
+    src: _AttackFlow5.default
+  }), _react.default.createElement("img", {
+    alt: "attack",
+    className: "fragment ".concat(_Network.default.attack_img),
+    src: _AttackFlow6.default
+  }), _react.default.createElement("img", {
+    alt: "attack",
+    className: "fragment ".concat(_Network.default.attack_img),
+    src: _AttackFlow7.default
+  }), _react.default.createElement("img", {
+    alt: "attack",
+    className: "fragment ".concat(_Network.default.attack_img),
+    src: _AttackFlow8.default
+  }), _react.default.createElement("img", {
+    alt: "attack",
+    className: "fragment ".concat(_Network.default.attack_img),
+    src: _AttackFlow9.default
+  })));
 };
 
 exports.Network = Network;
-},{"react":"../node_modules/react/index.js","./Network.css":"components/slides/Network/Network.css","../../Slide/Slide":"components/Slide/Slide.js","./trace.png":"components/slides/Network/trace.png"}],"components/slides/End/End.css":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./Network.css":"components/slides/Network/Network.css","../../Slide/Slide":"components/Slide/Slide.js","./trace.png":"components/slides/Network/trace.png","./AttackFlow1.svg":"components/slides/Network/AttackFlow1.svg","./AttackFlow2.svg":"components/slides/Network/AttackFlow2.svg","./AttackFlow3.svg":"components/slides/Network/AttackFlow3.svg","./AttackFlow4.svg":"components/slides/Network/AttackFlow4.svg","./AttackFlow5.svg":"components/slides/Network/AttackFlow5.svg","./AttackFlow6.svg":"components/slides/Network/AttackFlow6.svg","./AttackFlow7.svg":"components/slides/Network/AttackFlow7.svg","./AttackFlow8.svg":"components/slides/Network/AttackFlow8.svg","./AttackFlow9.svg":"components/slides/Network/AttackFlow9.svg"}],"components/slides/End/End.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -37816,7 +37877,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37103" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44075" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
