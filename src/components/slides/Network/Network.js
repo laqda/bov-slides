@@ -6,7 +6,11 @@ export const networkTitles = {
   title: "Analyse réseau",
   subtitles: [
     {
-      title: "",
+      title: "Trace réseau",
+      length: 1,
+    },
+    {
+      title: "Procédure d'attaque",
       length: 1,
     },
   ],
@@ -15,6 +19,9 @@ export const networkTitles = {
 export const Network = () => {
   return (
     <React.Fragment>
+      <Slide data-background-color="#f6f8fa">
+        <h2>TEST</h2>
+      </Slide>
       <Slide data-background-color="#f6f8fa">
         <h2>TEST</h2>
       </Slide>
