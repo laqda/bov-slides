@@ -11564,7 +11564,7 @@ if ("development" !== "production") {
         }
 
         didWarnInvalidHydration = true;
-        warningWithoutStack$1(false, 'Text content did not match. Server: "%s" Client: "%s"', normalizedServerText, normalizedClientText);
+        warningWithoutStack$1(false, 'Text content did not match. Demo: "%s" Client: "%s"', normalizedServerText, normalizedClientText);
       };
 
       warnForPropDifference = function (propName, serverValue, clientValue) {
@@ -11580,7 +11580,7 @@ if ("development" !== "production") {
         }
 
         didWarnInvalidHydration = true;
-        warningWithoutStack$1(false, 'Prop `%s` did not match. Server: %s Client: %s', propName, JSON.stringify(normalizedServerValue), JSON.stringify(normalizedClientValue));
+        warningWithoutStack$1(false, 'Prop `%s` did not match. Demo: %s Client: %s', propName, JSON.stringify(normalizedServerValue), JSON.stringify(normalizedClientValue));
       };
 
       warnForExtraAttributes = function (attributeNames) {
@@ -37581,7 +37581,7 @@ exports.Server = exports.serverTitles = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _Server = _interopRequireDefault(require("./Server.css"));
+var _Server = _interopRequireDefault(require("./Demo.css"));
 
 var _Slide = require("../../Slide/Slide");
 
@@ -37759,7 +37759,7 @@ var _Network = require("../slides/Network/Network");
 
 var _End = require("../slides/End/End");
 
-var _Server = require("../slides/Server/Server");
+var _Server = require("../slides/Demo/Demo");
 
 var _Payload = require("../slides/Payload/Payload");
 
