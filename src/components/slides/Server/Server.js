@@ -50,6 +50,9 @@ export const Server = () => {
       <Slide data-background-color="#f6f8fa">
         <h2>TEST</h2>
       </Slide>
+      <Slide data-background-color="#f6f8fa">
+        <h2>TEST</h2>
+      </Slide>
     </React.Fragment>
   );
 };

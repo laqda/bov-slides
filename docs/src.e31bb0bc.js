@@ -11564,7 +11564,7 @@ if ("development" !== "production") {
         }
 
         didWarnInvalidHydration = true;
-        warningWithoutStack$1(false, 'Text content did not match. Demo: "%s" Client: "%s"', normalizedServerText, normalizedClientText);
+        warningWithoutStack$1(false, 'Text content did not match. Server: "%s" Client: "%s"', normalizedServerText, normalizedClientText);
       };
 
       warnForPropDifference = function (propName, serverValue, clientValue) {
@@ -11580,7 +11580,7 @@ if ("development" !== "production") {
         }
 
         didWarnInvalidHydration = true;
-        warningWithoutStack$1(false, 'Prop `%s` did not match. Demo: %s Client: %s', propName, JSON.stringify(normalizedServerValue), JSON.stringify(normalizedClientValue));
+        warningWithoutStack$1(false, 'Prop `%s` did not match. Server: %s Client: %s', propName, JSON.stringify(normalizedServerValue), JSON.stringify(normalizedClientValue));
       };
 
       warnForExtraAttributes = function (attributeNames) {
@@ -37581,7 +37581,7 @@ exports.Server = exports.serverTitles = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _Server = _interopRequireDefault(require("./Demo.css"));
+var _Server = _interopRequireDefault(require("./Server.css"));
 
 var _Slide = require("../../Slide/Slide");
 
@@ -37613,6 +37613,9 @@ var serverTitles = {
   title: "Analyse serveur",
   subtitles: [{
     title: "Fonctionnement",
+    length: 1
+  }, {
+    title: "ECHO %x%x%x%x %x",
     length: 1
   }, {
     title: "Gestion des buffers",
@@ -37670,6 +37673,8 @@ var Server = function Server() {
     src: _server_echo.default
   })), _react.default.createElement(_Slide.Slide, {
     "data-background-color": "#f6f8fa"
+  }, _react.default.createElement("h2", null, "TEST")), _react.default.createElement(_Slide.Slide, {
+    "data-background-color": "#f6f8fa"
   }, _react.default.createElement("h2", null, "TEST")));
 };
 
@@ -37680,20 +37685,17 @@ var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 module.exports = {
-  "imgRsaConference": "_imgRsaConference_2a179",
-  "imgTweetReleaseGhidra": "_imgTweetReleaseGhidra_2a179",
-  "note": "_note_2a179",
-  "blocs": "_blocs_2a179",
-  "bloc": "_bloc_2a179",
-  "blocText": "_blocText_2a179",
-  "blocExample": "_blocExample_2a179",
-  "imgTweetGhidraCool": "_imgTweetGhidraCool_2a179",
-  "imgTweetGhidraCool1": "_imgTweetGhidraCool1_2a179",
-  "imgTweetGhidraCool2": "_imgTweetGhidraCool2_2a179",
-  "imgTweetGhidraCool3": "_imgTweetGhidraCool3_2a179",
-  "imgTweetGhidraCool4": "_imgTweetGhidraCool4_2a179"
+  "ghidra": "_ghidra_2a179",
+  "payload": "_payload_2a179",
+  "payload_transmission": "_payload_transmission_2a179",
+  "payload_payload": "_payload_payload_2a179",
+  "payload_data": "_payload_data_2a179",
+  "payload_unknown": "_payload_unknown_2a179",
+  "legend": "_legend_2a179"
 };
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/Payload/Payload.js":[function(require,module,exports) {
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/Payload/ghidra.png":[function(require,module,exports) {
+module.exports = "/ghidra.b394c361.png";
+},{}],"components/slides/Payload/Payload.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -37707,6 +37709,8 @@ var _Payload = _interopRequireDefault(require("./Payload.css"));
 
 var _Slide = require("../../Slide/Slide");
 
+var _ghidra = _interopRequireDefault(require("./ghidra.png"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var payloadTitles = {
@@ -37717,9 +37721,6 @@ var payloadTitles = {
   }, {
     title: "Analyse Ghidra",
     length: 1
-  }, {
-    title: "Suite d'évènements",
-    length: 1
   }]
 };
 exports.payloadTitles = payloadTitles;
@@ -37727,15 +37728,116 @@ exports.payloadTitles = payloadTitles;
 var Payload = function Payload() {
   return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_Slide.Slide, {
     "data-background-color": "#f6f8fa"
-  }, _react.default.createElement("h2", null, "TEST")), _react.default.createElement(_Slide.Slide, {
+  }, _react.default.createElement("pre", {
+    className: _Payload.default.payload
+  }, "0000   ", _react.default.createElement("span", {
+    className: _Payload.default.payload_transmission
+  }, "08 00 27 d6 0f 5a 54 bf 64 79 25 77 08 00 45 00"), "   ..'\xD6.ZT\xBFdy%w..E.", _react.default.createElement("br", null), "0010   ", _react.default.createElement("span", {
+    className: _Payload.default.payload_transmission
+  }, "01 0a 14 44 40 00 40 06 a0 91 c0 a8 01 64 c0 a8"), "   ...D@.@.\xA0.\xC0\xA8.d\xC0\xA8", _react.default.createElement("br", null), "0020   ", _react.default.createElement("span", {
+    className: _Payload.default.payload_transmission
+  }, "02 64 bf 1c 17 70 18 f8 6b dd 61 77 a2 e3 80 18"), "   .d\xBF..p.\xF8k\xDDaw\xA2\xE3..", _react.default.createElement("br", null), "0030   ", _react.default.createElement("span", {
+    className: _Payload.default.payload_transmission
+  }, "00 bb 0a 0a 00 00 01 01 08 0a 00 08 80 de 00 03"), "   .\xBB...........\xDE..", _react.default.createElement("br", null), "0040   ", _react.default.createElement("span", {
+    className: _Payload.default.payload_transmission
+  }, "d1 af"), _react.default.createElement("span", {
+    className: _Payload.default.payload_payload
+  }, " ", _react.default.createElement("b", null, "90 90 90 90 90 90 90 90 90 90 90 90 90 90")), "   \xD1\xAF..............", _react.default.createElement("br", null), "0050   ", _react.default.createElement("span", {
+    className: _Payload.default.payload_payload
+  }, _react.default.createElement("b", null, "90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90")), "   ................", _react.default.createElement("br", null), "0060   ", _react.default.createElement("span", {
+    className: _Payload.default.payload_payload
+  }, _react.default.createElement("b", null, "90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90")), "   ................", _react.default.createElement("br", null), "0070   ", _react.default.createElement("span", {
+    className: _Payload.default.payload_payload
+  }, _react.default.createElement("b", null, "90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90")), "   ................", _react.default.createElement("br", null), "0080   ", _react.default.createElement("span", {
+    className: _Payload.default.payload_payload
+  }, _react.default.createElement("b", null, "90 90"), " eb 71 5d 31 c0 31 db 31 c9 31 d2 31 ff 31"), "   ..\xEBq]1\xC01\xDB1\xC91\xD21\xFF1", _react.default.createElement("br", null), "0090   ", _react.default.createElement("span", {
+    className: _Payload.default.payload_payload
+  }, "f6 b0 22 89 c6 b0 c0 b1 01 66 c1 e1 0c b2 03 4f"), "   \xF6\xB0\".\xC6\xB0\xC0\xB1.f\xC1\xE1.\xB2.O", _react.default.createElement("br", null), "00a0   ", _react.default.createElement("span", {
+    className: _Payload.default.payload_payload
+  }, "cd 80 89 c1 31 ff b3 02 89 ca 80 c1 04 31 c0 66"), "   \xCD..\xC11\xFF\xB3..\xCA.\xC1.1\xC0f", _react.default.createElement("br", null), "00b0   ", _react.default.createElement("span", {
+    className: _Payload.default.payload_payload
+  }, "b8 70 01 fe c3 c6 02 10 89 39 cd 80 39 f8 75 ed"), "   \xB8p.\xFE\xC3\xC6...9\xCD.9\xF8u\xED", _react.default.createElement("br", null), "00c0   ", _react.default.createElement("span", {
+    className: _Payload.default.payload_payload
+  }, "8b 01 3c 02 75 e7 89 ca 31 c9 31 c0 b0 3f cd 80"), "   ..<.u\xE7.\xCA1\xC91\xC0\xB0?\xCD.", _react.default.createElement("br", null), "00d0   ", _react.default.createElement("span", {
+    className: _Payload.default.payload_payload
+  }, "41 b0 3f cd 80 41 b0 3f cd 80 31 c0 89 6d 08 89"), "   A\xB0?\xCD.A\xB0?\xCD.1\xC0.m..", _react.default.createElement("br", null), "00e0   ", _react.default.createElement("span", {
+    className: _Payload.default.payload_payload
+  }, "45 0c 88 45 07 b0 0b 89 eb 8d 4d 08 8d 55 0c cd"), "   E..E.\xB0..\xEB.M..U.\xCD", _react.default.createElement("br", null), "00f0   ", _react.default.createElement("span", {
+    className: _Payload.default.payload_payload
+  }, "80 b0 01 cd 80 e8 8a ff ff ff"), _react.default.createElement("span", {
+    className: _Payload.default.payload_data
+  }, " 2f 62 69 6e 2f 73"), "   .\xB0.\xCD.\xE8.\xFF\xFF\xFF", _react.default.createElement("b", null, "/bin/s"), _react.default.createElement("br", null), "0100   ", _react.default.createElement("span", {
+    className: _Payload.default.payload_data
+  }, "68 41 41 41 41 41 41 41 41 41"), _react.default.createElement("span", {
+    className: _Payload.default.payload_unknown
+  }, " 0a 00 00 00 0d 00"), "   ", _react.default.createElement("b", null, "h"), "AAAAAAAAA......", _react.default.createElement("br", null), "0110   ", _react.default.createElement("span", {
+    className: _Payload.default.payload_unknown
+  }, "00 00 8b 91 98 c3 ff 0a                        "), "   ........\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0", _react.default.createElement("br", null)), _react.default.createElement("div", {
+    className: _Payload.default.legend
+  }, _react.default.createElement("span", null, _react.default.createElement("span", {
+    className: _Payload.default.payload_transmission
+  }, "\xA0\xA0\xA0\xA0\xA0\xA0\xA0"), "\xA0\xA0\xA0 protocole"), _react.default.createElement("span", null, _react.default.createElement("span", {
+    className: _Payload.default.payload_payload
+  }, "\xA0\xA0\xA0\xA0\xA0\xA0\xA0"), "\xA0\xA0\xA0 code"), _react.default.createElement("span", null, _react.default.createElement("span", {
+    className: _Payload.default.payload_data
+  }, "\xA0\xA0\xA0\xA0\xA0\xA0\xA0"), "\xA0\xA0\xA0 data"), _react.default.createElement("span", null, _react.default.createElement("span", {
+    className: _Payload.default.payload_unknown
+  }, "\xA0\xA0\xA0\xA0\xA0\xA0\xA0"), "\xA0\xA0\xA0 inconnu"))), _react.default.createElement(_Slide.Slide, {
+    "data-background-color": "#f6f8fa"
+  }, _react.default.createElement("img", {
+    className: _Payload.default.ghidra,
+    alt: "ghidra",
+    src: _ghidra.default
+  })));
+};
+
+exports.Payload = Payload;
+},{"react":"../node_modules/react/index.js","./Payload.css":"components/slides/Payload/Payload.css","../../Slide/Slide":"components/Slide/Slide.js","./ghidra.png":"components/slides/Payload/ghidra.png"}],"components/slides/Demo/Demo.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+module.exports = {
+  "server_img": "_server_img_fae0c"
+};
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/Demo/Demo.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Demo = exports.demoTitles = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Demo = _interopRequireDefault(require("./Demo.css"));
+
+var _Slide = require("../../Slide/Slide");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var demoTitles = {
+  title: "Démonstration",
+  subtitles: [{
+    title: "Fonctionnement",
+    length: 1
+  }, {
+    title: "Roulez jeunesse",
+    length: 1
+  }]
+};
+exports.demoTitles = demoTitles;
+
+var Demo = function Demo() {
+  return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_Slide.Slide, {
     "data-background-color": "#f6f8fa"
   }, _react.default.createElement("h2", null, "TEST")), _react.default.createElement(_Slide.Slide, {
     "data-background-color": "#f6f8fa"
   }, _react.default.createElement("h2", null, "TEST")));
 };
 
-exports.Payload = Payload;
-},{"react":"../node_modules/react/index.js","./Payload.css":"components/slides/Payload/Payload.css","../../Slide/Slide":"components/Slide/Slide.js"}],"components/App/App.js":[function(require,module,exports) {
+exports.Demo = Demo;
+},{"react":"../node_modules/react/index.js","./Demo.css":"components/slides/Demo/Demo.css","../../Slide/Slide":"components/Slide/Slide.js"}],"components/App/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -37759,9 +37861,11 @@ var _Network = require("../slides/Network/Network");
 
 var _End = require("../slides/End/End");
 
-var _Server = require("../slides/Demo/Demo");
+var _Server = require("../slides/Server/Server");
 
 var _Payload = require("../slides/Payload/Payload");
+
+var _Demo = require("../slides/Demo/Demo");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -37777,7 +37881,7 @@ function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) ||
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
-var hideBarsOnSlides = [0, 17]; // TODO
+var hideBarsOnSlides = [0, 10]; // TODO
 
 var App = function App() {
   var slideIndex = useSlideIndex();
@@ -37788,10 +37892,10 @@ var App = function App() {
   }, _react.default.createElement(_Header.Header, {
     slideIndex: slideIndex,
     hideOnSlides: hideBarsOnSlides,
-    titles: [_Network.networkTitles, _Payload.payloadTitles, _Server.serverTitles]
+    titles: [_Network.networkTitles, _Payload.payloadTitles, _Server.serverTitles, _Demo.demoTitles]
   }), _react.default.createElement("div", {
     className: "slides"
-  }, _react.default.createElement(_Title.Title, null), _react.default.createElement(_Network.Network, null), _react.default.createElement(_Payload.Payload, null), _react.default.createElement(_Server.Server, null), _react.default.createElement(_End.End, null)), _react.default.createElement(_Footer.Footer, {
+  }, _react.default.createElement(_Title.Title, null), _react.default.createElement(_Network.Network, null), _react.default.createElement(_Payload.Payload, null), _react.default.createElement(_Server.Server, null), _react.default.createElement(_Demo.Demo, null), _react.default.createElement(_End.End, null)), _react.default.createElement(_Footer.Footer, {
     slideIndex: slideIndex,
     hideOnSlides: hideBarsOnSlides
   })));
@@ -37814,7 +37918,7 @@ var useSlideIndex = function useSlideIndex() {
   }, []);
   return slideIndex;
 };
-},{"react":"../node_modules/react/index.js","./App.css":"components/App/App.css","../slides/Title/Title":"components/slides/Title/Title.js","../Footer/Footer":"components/Footer/Footer.js","../Header/Header":"components/Header/Header.js","reveal.js":"../node_modules/reveal.js/js/reveal.js","../slides/Network/Network":"components/slides/Network/Network.js","../slides/End/End":"components/slides/End/End.js","../slides/Server/Server":"components/slides/Server/Server.js","../slides/Payload/Payload":"components/slides/Payload/Payload.js"}],"index.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./App.css":"components/App/App.css","../slides/Title/Title":"components/slides/Title/Title.js","../Footer/Footer":"components/Footer/Footer.js","../Header/Header":"components/Header/Header.js","reveal.js":"../node_modules/reveal.js/js/reveal.js","../slides/Network/Network":"components/slides/Network/Network.js","../slides/End/End":"components/slides/End/End.js","../slides/Server/Server":"components/slides/Server/Server.js","../slides/Payload/Payload":"components/slides/Payload/Payload.js","../slides/Demo/Demo":"components/slides/Demo/Demo.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -37877,7 +37981,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44075" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37795" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
