@@ -43,7 +43,7 @@ export const serverTitles = {
     },
     {
       title: "Gestion des buffers",
-      length: 1,
+      length: 2,
     },
   ],
 };

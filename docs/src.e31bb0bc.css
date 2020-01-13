@@ -2306,5 +2306,43 @@ body {
     width: 50vw;
 }
 
+._ghidra_eb11b {
+    background: none !important;
+    box-shadow: none !important;
+    height: 25vh;
+}
+
+._payload_eb11b {
+    font-size: 13px !important;
+    text-align: center !important;
+    box-shadow: none !important;
+    background: none !important;
+}
+
+._payload_transmission_eb11b {
+    background-color: #bbb;
+}
+
+._payload_payload_eb11b {
+    background-color: #ffff00;
+}
+
+._payload_data_eb11b {
+    background-color: #ff2c2d;
+}
+
+._payload_unknown_eb11b {
+    background-color: #17ff2e;
+}
+
+._legend_eb11b {
+    display: flex;
+    font-size: 14px;
+    width: 50%;
+}
+
+._legend_eb11b > * {
+    flex: 1;
+}
 
 /*# sourceMappingURL=/src.e31bb0bc.css.map */

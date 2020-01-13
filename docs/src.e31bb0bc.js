@@ -37690,7 +37690,7 @@ var serverTitles = {
     length: 1
   }, {
     title: "Gestion des buffers",
-    length: 1
+    length: 2
   }]
 };
 exports.serverTitles = serverTitles;
@@ -37978,7 +37978,63 @@ var Demo = function Demo() {
 };
 
 exports.Demo = Demo;
-},{"react":"../node_modules/react/index.js","./Demo.css":"components/slides/Demo/Demo.css","../../Slide/Slide":"components/Slide/Slide.js"}],"components/App/App.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./Demo.css":"components/slides/Demo/Demo.css","../../Slide/Slide":"components/Slide/Slide.js"}],"components/slides/Recommendations/Recommendations.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+module.exports = {
+  "ghidra": "_ghidra_eb11b",
+  "payload": "_payload_eb11b",
+  "payload_transmission": "_payload_transmission_eb11b",
+  "payload_payload": "_payload_payload_eb11b",
+  "payload_data": "_payload_data_eb11b",
+  "payload_unknown": "_payload_unknown_eb11b",
+  "legend": "_legend_eb11b"
+};
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/Recommendations/Recommendations.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Recommendations = exports.recommendationsTitles = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Recommendations = _interopRequireDefault(require("./Recommendations.css"));
+
+var _Slide = require("../../Slide/Slide");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var recommendationsTitles = {
+  title: "Recommendations",
+  subtitles: [{
+    title: "ECHO %x%x%x%x %x",
+    length: 1
+  }, {
+    title: "Gestions des buffers",
+    length: 1
+  }, {
+    title: "Bit NX",
+    length: 1
+  }]
+};
+exports.recommendationsTitles = recommendationsTitles;
+
+var Recommendations = function Recommendations() {
+  return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_Slide.Slide, {
+    "data-background-color": "#f6f8fa"
+  }), _react.default.createElement(_Slide.Slide, {
+    "data-background-color": "#f6f8fa"
+  }), _react.default.createElement(_Slide.Slide, {
+    "data-background-color": "#f6f8fa"
+  }));
+};
+
+exports.Recommendations = Recommendations;
+},{"react":"../node_modules/react/index.js","./Recommendations.css":"components/slides/Recommendations/Recommendations.css","../../Slide/Slide":"components/Slide/Slide.js"}],"components/App/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -38008,6 +38064,8 @@ var _Payload = require("../slides/Payload/Payload");
 
 var _Demo = require("../slides/Demo/Demo");
 
+var _Recommendations = require("../slides/Recommendations/Recommendations");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
@@ -38022,7 +38080,7 @@ function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) ||
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
-var hideBarsOnSlides = [0, 10]; // TODO
+var hideBarsOnSlides = [0, 14]; // TODO
 
 var App = function App() {
   var slideIndex = useSlideIndex();
@@ -38033,10 +38091,10 @@ var App = function App() {
   }, _react.default.createElement(_Header.Header, {
     slideIndex: slideIndex,
     hideOnSlides: hideBarsOnSlides,
-    titles: [_Network.networkTitles, _Payload.payloadTitles, _Server.serverTitles, _Demo.demoTitles]
+    titles: [_Network.networkTitles, _Payload.payloadTitles, _Server.serverTitles, _Demo.demoTitles, _Recommendations.recommendationsTitles]
   }), _react.default.createElement("div", {
     className: "slides"
-  }, _react.default.createElement(_Title.Title, null), _react.default.createElement(_Network.Network, null), _react.default.createElement(_Payload.Payload, null), _react.default.createElement(_Server.Server, null), _react.default.createElement(_Demo.Demo, null), _react.default.createElement(_End.End, null)), _react.default.createElement(_Footer.Footer, {
+  }, _react.default.createElement(_Title.Title, null), _react.default.createElement(_Network.Network, null), _react.default.createElement(_Payload.Payload, null), _react.default.createElement(_Server.Server, null), _react.default.createElement(_Demo.Demo, null), _react.default.createElement(_Recommendations.Recommendations, null), _react.default.createElement(_End.End, null)), _react.default.createElement(_Footer.Footer, {
     slideIndex: slideIndex,
     hideOnSlides: hideBarsOnSlides
   })));
@@ -38059,7 +38117,7 @@ var useSlideIndex = function useSlideIndex() {
   }, []);
   return slideIndex;
 };
-},{"react":"../node_modules/react/index.js","./App.css":"components/App/App.css","../slides/Title/Title":"components/slides/Title/Title.js","../Footer/Footer":"components/Footer/Footer.js","../Header/Header":"components/Header/Header.js","reveal.js":"../node_modules/reveal.js/js/reveal.js","../slides/Network/Network":"components/slides/Network/Network.js","../slides/End/End":"components/slides/End/End.js","../slides/Server/Server":"components/slides/Server/Server.js","../slides/Payload/Payload":"components/slides/Payload/Payload.js","../slides/Demo/Demo":"components/slides/Demo/Demo.js"}],"index.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./App.css":"components/App/App.css","../slides/Title/Title":"components/slides/Title/Title.js","../Footer/Footer":"components/Footer/Footer.js","../Header/Header":"components/Header/Header.js","reveal.js":"../node_modules/reveal.js/js/reveal.js","../slides/Network/Network":"components/slides/Network/Network.js","../slides/End/End":"components/slides/End/End.js","../slides/Server/Server":"components/slides/Server/Server.js","../slides/Payload/Payload":"components/slides/Payload/Payload.js","../slides/Demo/Demo":"components/slides/Demo/Demo.js","../slides/Recommendations/Recommendations":"components/slides/Recommendations/Recommendations.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -38122,7 +38180,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38275" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36833" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
