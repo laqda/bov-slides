@@ -28,6 +28,7 @@ import pile12 from "./pile12.svg"
 import pile13 from "./pile13.svg"
 import pile14 from "./pile14.svg"
 import safeMessage from "./safeMessage.svg"
+import man_snprintf from "./man-snprintf.png"
 
 export const serverTitles = {
   title: "Analyse serveur",
@@ -63,8 +64,8 @@ export const Server = () => {
         <img alt="server" className={`fragment ${styles.server_img}`} src={server_quit}/>
         <img alt="server" className={`fragment ${styles.server_img}`} src={server_echo}/>
       </Slide>
-      <Slide data-background-color="#f6f8fa">
-        <h2>TEST</h2>
+      <Slide data-background-color="#000">
+        <img alt="man" className={styles.man} src={man_snprintf}/>
       </Slide>
       <Slide data-background-color="#f6f8fa">
         <img alt="safeMessage" className={`${styles.safeMessage}`} src={safeMessage}/>
