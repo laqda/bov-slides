@@ -45,7 +45,7 @@ export const Payload = () => {
           <span><span className={styles.payload_transmission}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp; protocole</span>
           <span><span className={styles.payload_payload}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp; code</span>
           <span><span className={styles.payload_data}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp; data</span>
-          <span><span className={styles.payload_unknown}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp; inconnu</span>
+          <span><span className={styles.payload_unknown}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp; indéfini</span>
         </div>
       </Slide>
       <Slide data-background-color="#f6f8fa">
