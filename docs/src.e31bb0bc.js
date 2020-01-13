@@ -37548,7 +37548,8 @@ module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 module.exports = {
   "server_img": "_server_img_8a043",
-  "pile_img": "_pile_img_8a043"
+  "pile_img": "_pile_img_8a043",
+  "safeMessage": "_safeMessage_8a043"
 };
 },{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/Server/server_buffer.svg":[function(require,module,exports) {
 module.exports = "/server_buffer.d32cf42e.svg";
@@ -37602,6 +37603,8 @@ module.exports = "/pile12.3b47efc7.svg";
 module.exports = "/pile13.277bab1d.svg";
 },{}],"components/slides/Server/pile14.svg":[function(require,module,exports) {
 module.exports = "/pile14.716381a2.svg";
+},{}],"components/slides/Server/safeMessage.svg":[function(require,module,exports) {
+module.exports = "/safeMessage.23114eac.svg";
 },{}],"components/slides/Server/Server.js":[function(require,module,exports) {
 "use strict";
 
@@ -37667,6 +37670,8 @@ var _pile13 = _interopRequireDefault(require("./pile12.svg"));
 var _pile14 = _interopRequireDefault(require("./pile13.svg"));
 
 var _pile15 = _interopRequireDefault(require("./pile14.svg"));
+
+var _safeMessage = _interopRequireDefault(require("./safeMessage.svg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -37737,6 +37742,12 @@ var Server = function Server() {
   }, _react.default.createElement("h2", null, "TEST")), _react.default.createElement(_Slide.Slide, {
     "data-background-color": "#f6f8fa"
   }, _react.default.createElement("img", {
+    alt: "safeMessage",
+    className: "".concat(_Server.default.safeMessage),
+    src: _safeMessage.default
+  })), _react.default.createElement(_Slide.Slide, {
+    "data-background-color": "#f6f8fa"
+  }, _react.default.createElement("img", {
     alt: "pile",
     className: "".concat(_Server.default.pile_img),
     src: _pile.default
@@ -37800,7 +37811,7 @@ var Server = function Server() {
 };
 
 exports.Server = Server;
-},{"react":"../node_modules/react/index.js","./Server.css":"components/slides/Server/Server.css","../../Slide/Slide":"components/Slide/Slide.js","./server_buffer.svg":"components/slides/Server/server_buffer.svg","./server_client.svg":"components/slides/Server/server_client.svg","./server_command.svg":"components/slides/Server/server_command.svg","./server_default.svg":"components/slides/Server/server_default.svg","./server_echo.svg":"components/slides/Server/server_echo.svg","./server_exists.svg":"components/slides/Server/server_exists.svg","./server_get.svg":"components/slides/Server/server_get.svg","./server_main.svg":"components/slides/Server/server_main.svg","./server_put.svg":"components/slides/Server/server_put.svg","./server_quit.svg":"components/slides/Server/server_quit.svg","./server_server.svg":"components/slides/Server/server_server.svg","./pile0.svg":"components/slides/Server/pile0.svg","./pile1.svg":"components/slides/Server/pile1.svg","./pile2.svg":"components/slides/Server/pile2.svg","./pile3.svg":"components/slides/Server/pile3.svg","./pile4.svg":"components/slides/Server/pile4.svg","./pile5.svg":"components/slides/Server/pile5.svg","./pile6.svg":"components/slides/Server/pile6.svg","./pile7.svg":"components/slides/Server/pile7.svg","./pile8.svg":"components/slides/Server/pile8.svg","./pile9.svg":"components/slides/Server/pile9.svg","./pile10.svg":"components/slides/Server/pile10.svg","./pile11.svg":"components/slides/Server/pile11.svg","./pile12.svg":"components/slides/Server/pile12.svg","./pile13.svg":"components/slides/Server/pile13.svg","./pile14.svg":"components/slides/Server/pile14.svg"}],"components/slides/Payload/Payload.css":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./Server.css":"components/slides/Server/Server.css","../../Slide/Slide":"components/Slide/Slide.js","./server_buffer.svg":"components/slides/Server/server_buffer.svg","./server_client.svg":"components/slides/Server/server_client.svg","./server_command.svg":"components/slides/Server/server_command.svg","./server_default.svg":"components/slides/Server/server_default.svg","./server_echo.svg":"components/slides/Server/server_echo.svg","./server_exists.svg":"components/slides/Server/server_exists.svg","./server_get.svg":"components/slides/Server/server_get.svg","./server_main.svg":"components/slides/Server/server_main.svg","./server_put.svg":"components/slides/Server/server_put.svg","./server_quit.svg":"components/slides/Server/server_quit.svg","./server_server.svg":"components/slides/Server/server_server.svg","./pile0.svg":"components/slides/Server/pile0.svg","./pile1.svg":"components/slides/Server/pile1.svg","./pile2.svg":"components/slides/Server/pile2.svg","./pile3.svg":"components/slides/Server/pile3.svg","./pile4.svg":"components/slides/Server/pile4.svg","./pile5.svg":"components/slides/Server/pile5.svg","./pile6.svg":"components/slides/Server/pile6.svg","./pile7.svg":"components/slides/Server/pile7.svg","./pile8.svg":"components/slides/Server/pile8.svg","./pile9.svg":"components/slides/Server/pile9.svg","./pile10.svg":"components/slides/Server/pile10.svg","./pile11.svg":"components/slides/Server/pile11.svg","./pile12.svg":"components/slides/Server/pile12.svg","./pile13.svg":"components/slides/Server/pile13.svg","./pile14.svg":"components/slides/Server/pile14.svg","./safeMessage.svg":"components/slides/Server/safeMessage.svg"}],"components/slides/Payload/Payload.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);

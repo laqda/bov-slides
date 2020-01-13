@@ -24,3 +24,9 @@
     height: 40vh;
     width: 100%;
 }
+
+.safeMessage {
+    background: none !important;
+    box-shadow: none !important;
+    width: 30vw;
+}

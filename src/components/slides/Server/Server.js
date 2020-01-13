@@ -27,6 +27,7 @@ import pile11 from "./pile11.svg"
 import pile12 from "./pile12.svg"
 import pile13 from "./pile13.svg"
 import pile14 from "./pile14.svg"
+import safeMessage from "./safeMessage.svg"
 
 export const serverTitles = {
   title: "Analyse serveur",
@@ -64,6 +65,9 @@ export const Server = () => {
       </Slide>
       <Slide data-background-color="#f6f8fa">
         <h2>TEST</h2>
+      </Slide>
+      <Slide data-background-color="#f6f8fa">
+        <img alt="safeMessage" className={`${styles.safeMessage}`} src={safeMessage}/>
       </Slide>
       <Slide data-background-color="#f6f8fa">
         <img alt="pile" className={`${styles.pile_img}`} src={pile0}/>

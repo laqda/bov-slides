@@ -2245,6 +2245,12 @@ body {
     width: 100%;
 }
 
+._safeMessage_8a043 {
+    background: none !important;
+    box-shadow: none !important;
+    width: 30vw;
+}
+
 ._ghidra_2a179 {
     background: none !important;
     box-shadow: none !important;
