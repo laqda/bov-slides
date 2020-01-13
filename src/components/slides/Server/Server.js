@@ -12,6 +12,21 @@ import server_main from "./server_main.svg"
 import server_put from "./server_put.svg"
 import server_quit from "./server_quit.svg"
 import server_server from "./server_server.svg"
+import pile0 from "./pile0.svg"
+import pile1 from "./pile1.svg"
+import pile2 from "./pile2.svg"
+import pile3 from "./pile3.svg"
+import pile4 from "./pile4.svg"
+import pile5 from "./pile5.svg"
+import pile6 from "./pile6.svg"
+import pile7 from "./pile7.svg"
+import pile8 from "./pile8.svg"
+import pile9 from "./pile9.svg"
+import pile10 from "./pile10.svg"
+import pile11 from "./pile11.svg"
+import pile12 from "./pile12.svg"
+import pile13 from "./pile13.svg"
+import pile14 from "./pile14.svg"
 
 export const serverTitles = {
   title: "Analyse serveur",
@@ -51,7 +66,21 @@ export const Server = () => {
         <h2>TEST</h2>
       </Slide>
       <Slide data-background-color="#f6f8fa">
-        <h2>TEST</h2>
+        <img alt="pile" className={`${styles.pile_img}`} src={pile0}/>
+        <img alt="pile" className={`fragment ${styles.pile_img}`} src={pile1}/>
+        <img alt="pile" className={`fragment ${styles.pile_img}`} src={pile2}/>
+        <img alt="pile" className={`fragment ${styles.pile_img}`} src={pile3}/>
+        <img alt="pile" className={`fragment ${styles.pile_img}`} src={pile4}/>
+        <img alt="pile" className={`fragment ${styles.pile_img}`} src={pile5}/>
+        <img alt="pile" className={`fragment ${styles.pile_img}`} src={pile6}/>
+        <img alt="pile" className={`fragment ${styles.pile_img}`} src={pile7}/>
+        <img alt="pile" className={`fragment ${styles.pile_img}`} src={pile8}/>
+        <img alt="pile" className={`fragment ${styles.pile_img}`} src={pile9}/>
+        <img alt="pile" className={`fragment ${styles.pile_img}`} src={pile10}/>
+        <img alt="pile" className={`fragment ${styles.pile_img}`} src={pile11}/>
+        <img alt="pile" className={`fragment ${styles.pile_img}`} src={pile12}/>
+        <img alt="pile" className={`fragment ${styles.pile_img}`} src={pile13}/>
+        <img alt="pile" className={`fragment ${styles.pile_img}`} src={pile14}/>
       </Slide>
     </React.Fragment>
   );
