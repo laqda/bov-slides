@@ -15,9 +15,8 @@ export const demoTitles = {
 export const Demo = () => {
   return (
     <React.Fragment>
-      <Slide data-background-color="#555555">
-        {/*<h2>TEST</h2>*/}
-        {/*- adresse -4 car (ECHO ) --- -5 mais le premier nop est mis à \0*/}
+      <Slide data-background-color="#222">
+        <h1 style={{fontSize: '2.2em', marginBottom: '55px'}}>DEMO <mark style={{backgroundColor: '#ffff00', color: "black"}}>TIME</mark></h1>
       </Slide>
     </React.Fragment>
   );

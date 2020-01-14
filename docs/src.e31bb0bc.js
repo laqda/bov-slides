@@ -38091,8 +38091,18 @@ exports.demoTitles = demoTitles;
 
 var Demo = function Demo() {
   return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_Slide.Slide, {
-    "data-background-color": "#555555"
-  }));
+    "data-background-color": "#222"
+  }, _react.default.createElement("h1", {
+    style: {
+      fontSize: '2.2em',
+      marginBottom: '55px'
+    }
+  }, "DEMO ", _react.default.createElement("mark", {
+    style: {
+      backgroundColor: '#ffff00',
+      color: "black"
+    }
+  }, "TIME"))));
 };
 
 exports.Demo = Demo;
@@ -38140,7 +38150,7 @@ function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) ||
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
-var hideBarsOnSlides = [0, 15]; // TODO
+var hideBarsOnSlides = [0, 14, 15]; // TODO
 
 var App = function App() {
   var slideIndex = useSlideIndex();
@@ -38240,7 +38250,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46435" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42715" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
