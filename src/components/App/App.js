@@ -9,7 +9,6 @@ import {End} from "../slides/End/End";
 import {Server, serverTitles} from "../slides/Server/Server";
 import {Payload, payloadTitles} from "../slides/Payload/Payload";
 import {Demo, demoTitles} from "../slides/Demo/Demo";
-import {Recommendations, recommendationsTitles} from "../slides/Recommendations/Recommendations";
 
 const hideBarsOnSlides = [0, 14]; // TODO
 
@@ -23,7 +22,6 @@ export const App = () => {
           payloadTitles,
           serverTitles,
           demoTitles,
-          recommendationsTitles,
         ]}/>
         <div className="slides">
           <Title/>
@@ -31,7 +29,6 @@ export const App = () => {
           <Payload/>
           <Server/>
           <Demo/>
-          <Recommendations/>
           <End/>
         </div>
         <Footer slideIndex={slideIndex} hideOnSlides={hideBarsOnSlides}/>

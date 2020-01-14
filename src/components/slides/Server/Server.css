@@ -34,7 +34,21 @@
 .doEcho {
     background: none !important;
     box-shadow: none !important;
+    max-height: none !important;
     width: 35vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.sanitizeBuffer {
+    background: none !important;
+    box-shadow: none !important;
+    max-height: none !important;
+    width: 30vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
 }
 
 .man {

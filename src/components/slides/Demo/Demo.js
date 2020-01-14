@@ -6,11 +6,7 @@ export const demoTitles = {
   title: "Démonstration",
   subtitles: [
     {
-      title: "Fonctionnement",
-      length: 1,
-    },
-    {
-      title: "Roulez jeunesse",
+      title: "",
       length: 1,
     },
   ],
@@ -19,12 +15,9 @@ export const demoTitles = {
 export const Demo = () => {
   return (
     <React.Fragment>
-      <Slide data-background-color="#f6f8fa">
-        <h2>TEST</h2>
-        - adresse -4 car (ECHO ) --- -5 mais le premier nop est mis à \0
-      </Slide>
-      <Slide data-background-color="#f6f8fa">
-        <h2>TEST</h2>
+      <Slide data-background-color="#555555">
+        {/*<h2>TEST</h2>*/}
+        {/*- adresse -4 car (ECHO ) --- -5 mais le premier nop est mis à \0*/}
       </Slide>
     </React.Fragment>
   );

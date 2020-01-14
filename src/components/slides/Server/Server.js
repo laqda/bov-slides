@@ -30,6 +30,9 @@ import pile14 from "./pile14.svg"
 import safeMessage from "./safeMessage.svg"
 import man_snprintf from "./man-snprintf.png"
 import doEcho from './doEcho.svg'
+import doEchoAfter from "./doEchoAfter.svg";
+import sanitizeBuffer from "./sanitizeBuffer.svg";
+import sanitizeBufferAfter from "./sanitizeBufferAfter.svg";
 
 export const serverTitles = {
   title: "Analyse serveur",
@@ -40,7 +43,7 @@ export const serverTitles = {
     },
     {
       title: "ECHO %x%x%x%x %x",
-      length: 2,
+      length: 3,
     },
     {
       title: "Gestion des buffers",
@@ -73,6 +76,13 @@ export const Server = () => {
         {/* variatique */}
       </Slide>
       <Slide data-background-color="#f6f8fa">
+        <img alt="doEcho" className={`${styles.doEcho}`} src={doEcho}/>
+        <img alt="doEchoAfter" className={`fragment ${styles.doEcho}`} src={doEchoAfter}/>
+      </Slide>
+      <Slide data-background-color="#f6f8fa">
+        <img alt="sanitizeBuffer" className={`${styles.sanitizeBuffer}`} src={sanitizeBuffer}/>
+      </Slide>
+      <Slide data-background-color="#f6f8fa">
         <img alt="safeMessage" className={`${styles.safeMessage}`} src={safeMessage}/>
       </Slide>
       <Slide data-background-color="#f6f8fa">
@@ -91,6 +101,10 @@ export const Server = () => {
         <img alt="pile" className={`fragment ${styles.pile_img}`} src={pile12}/>
         <img alt="pile" className={`fragment ${styles.pile_img}`} src={pile13}/>
         <img alt="pile" className={`fragment ${styles.pile_img}`} src={pile14}/>
+      </Slide>
+      <Slide data-background-color="#f6f8fa">
+        <img alt="sanitizeBuffer" className={`${styles.sanitizeBuffer}`} src={sanitizeBuffer}/>
+        <img alt="sanitizeBufferAfter" className={`fragment ${styles.sanitizeBuffer}`} src={sanitizeBufferAfter}/>
       </Slide>
     </React.Fragment>
   );
