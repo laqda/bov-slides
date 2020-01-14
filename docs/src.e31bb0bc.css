@@ -2193,12 +2193,12 @@ body {
     max-height: none !important;
     position: absolute;
     top: 0;
-    left: 0;
+    /*left: 0;*/
     bottom: 0;
-    right: 0;
+    /*right: 0;*/
     background: #f6f8fa !important;
     box-shadow: none !important;
-    width: 50vw;
+    width: 45vw;
 }
 ._title_ea9bf {
     padding-bottom: 40px;
@@ -2248,7 +2248,13 @@ body {
 ._safeMessage_8a043 {
     background: none !important;
     box-shadow: none !important;
-    width: 30vw;
+    width: 25vw;
+}
+
+._doEcho_8a043 {
+    background: none !important;
+    box-shadow: none !important;
+    width: 35vw;
 }
 
 ._man_8a043 {

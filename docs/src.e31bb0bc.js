@@ -37550,6 +37550,7 @@ module.exports = {
   "server_img": "_server_img_8a043",
   "pile_img": "_pile_img_8a043",
   "safeMessage": "_safeMessage_8a043",
+  "doEcho": "_doEcho_8a043",
   "man": "_man_8a043"
 };
 },{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/Server/server_buffer.svg":[function(require,module,exports) {
@@ -37608,6 +37609,8 @@ module.exports = "/pile14.716381a2.svg";
 module.exports = "/safeMessage.23114eac.svg";
 },{}],"components/slides/Server/man-snprintf.png":[function(require,module,exports) {
 module.exports = "/man-snprintf.cc68f4ad.png";
+},{}],"components/slides/Server/doEcho.svg":[function(require,module,exports) {
+module.exports = "/doEcho.814fbe6e.svg";
 },{}],"components/slides/Server/Server.js":[function(require,module,exports) {
 "use strict";
 
@@ -37678,6 +37681,8 @@ var _safeMessage = _interopRequireDefault(require("./safeMessage.svg"));
 
 var _manSnprintf = _interopRequireDefault(require("./man-snprintf.png"));
 
+var _doEcho = _interopRequireDefault(require("./doEcho.svg"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var serverTitles = {
@@ -37687,7 +37692,7 @@ var serverTitles = {
     length: 1
   }, {
     title: "ECHO %x%x%x%x %x",
-    length: 1
+    length: 2
   }, {
     title: "Gestion des buffers",
     length: 2
@@ -37742,6 +37747,12 @@ var Server = function Server() {
     alt: "server",
     className: "fragment ".concat(_Server.default.server_img),
     src: _server_echo.default
+  })), _react.default.createElement(_Slide.Slide, {
+    "data-background-color": "#f6f8fa"
+  }, _react.default.createElement("img", {
+    alt: "doEcho",
+    className: "".concat(_Server.default.doEcho),
+    src: _doEcho.default
   })), _react.default.createElement(_Slide.Slide, {
     "data-background-color": "#000"
   }, _react.default.createElement("img", {
@@ -37820,7 +37831,7 @@ var Server = function Server() {
 };
 
 exports.Server = Server;
-},{"react":"../node_modules/react/index.js","./Server.css":"components/slides/Server/Server.css","../../Slide/Slide":"components/Slide/Slide.js","./server_buffer.svg":"components/slides/Server/server_buffer.svg","./server_client.svg":"components/slides/Server/server_client.svg","./server_command.svg":"components/slides/Server/server_command.svg","./server_default.svg":"components/slides/Server/server_default.svg","./server_echo.svg":"components/slides/Server/server_echo.svg","./server_exists.svg":"components/slides/Server/server_exists.svg","./server_get.svg":"components/slides/Server/server_get.svg","./server_main.svg":"components/slides/Server/server_main.svg","./server_put.svg":"components/slides/Server/server_put.svg","./server_quit.svg":"components/slides/Server/server_quit.svg","./server_server.svg":"components/slides/Server/server_server.svg","./pile0.svg":"components/slides/Server/pile0.svg","./pile1.svg":"components/slides/Server/pile1.svg","./pile2.svg":"components/slides/Server/pile2.svg","./pile3.svg":"components/slides/Server/pile3.svg","./pile4.svg":"components/slides/Server/pile4.svg","./pile5.svg":"components/slides/Server/pile5.svg","./pile6.svg":"components/slides/Server/pile6.svg","./pile7.svg":"components/slides/Server/pile7.svg","./pile8.svg":"components/slides/Server/pile8.svg","./pile9.svg":"components/slides/Server/pile9.svg","./pile10.svg":"components/slides/Server/pile10.svg","./pile11.svg":"components/slides/Server/pile11.svg","./pile12.svg":"components/slides/Server/pile12.svg","./pile13.svg":"components/slides/Server/pile13.svg","./pile14.svg":"components/slides/Server/pile14.svg","./safeMessage.svg":"components/slides/Server/safeMessage.svg","./man-snprintf.png":"components/slides/Server/man-snprintf.png"}],"components/slides/Payload/Payload.css":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./Server.css":"components/slides/Server/Server.css","../../Slide/Slide":"components/Slide/Slide.js","./server_buffer.svg":"components/slides/Server/server_buffer.svg","./server_client.svg":"components/slides/Server/server_client.svg","./server_command.svg":"components/slides/Server/server_command.svg","./server_default.svg":"components/slides/Server/server_default.svg","./server_echo.svg":"components/slides/Server/server_echo.svg","./server_exists.svg":"components/slides/Server/server_exists.svg","./server_get.svg":"components/slides/Server/server_get.svg","./server_main.svg":"components/slides/Server/server_main.svg","./server_put.svg":"components/slides/Server/server_put.svg","./server_quit.svg":"components/slides/Server/server_quit.svg","./server_server.svg":"components/slides/Server/server_server.svg","./pile0.svg":"components/slides/Server/pile0.svg","./pile1.svg":"components/slides/Server/pile1.svg","./pile2.svg":"components/slides/Server/pile2.svg","./pile3.svg":"components/slides/Server/pile3.svg","./pile4.svg":"components/slides/Server/pile4.svg","./pile5.svg":"components/slides/Server/pile5.svg","./pile6.svg":"components/slides/Server/pile6.svg","./pile7.svg":"components/slides/Server/pile7.svg","./pile8.svg":"components/slides/Server/pile8.svg","./pile9.svg":"components/slides/Server/pile9.svg","./pile10.svg":"components/slides/Server/pile10.svg","./pile11.svg":"components/slides/Server/pile11.svg","./pile12.svg":"components/slides/Server/pile12.svg","./pile13.svg":"components/slides/Server/pile13.svg","./pile14.svg":"components/slides/Server/pile14.svg","./safeMessage.svg":"components/slides/Server/safeMessage.svg","./man-snprintf.png":"components/slides/Server/man-snprintf.png","./doEcho.svg":"components/slides/Server/doEcho.svg"}],"components/slides/Payload/Payload.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -37972,7 +37983,7 @@ exports.demoTitles = demoTitles;
 var Demo = function Demo() {
   return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_Slide.Slide, {
     "data-background-color": "#f6f8fa"
-  }, _react.default.createElement("h2", null, "TEST")), _react.default.createElement(_Slide.Slide, {
+  }, _react.default.createElement("h2", null, "TEST"), "- adresse -4 car (ECHO ) --- -5 mais le premier nop est mis \xE0 \\0"), _react.default.createElement(_Slide.Slide, {
     "data-background-color": "#f6f8fa"
   }, _react.default.createElement("h2", null, "TEST")));
 };
@@ -38180,7 +38191,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36833" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38003" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
