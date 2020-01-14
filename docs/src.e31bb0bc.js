@@ -37551,6 +37551,7 @@ module.exports = {
   "pile_img": "_pile_img_8a043",
   "safeMessage": "_safeMessage_8a043",
   "doEcho": "_doEcho_8a043",
+  "sanitizeBuffer": "_sanitizeBuffer_8a043",
   "man": "_man_8a043"
 };
 },{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/Server/server_buffer.svg":[function(require,module,exports) {
@@ -37611,6 +37612,12 @@ module.exports = "/safeMessage.23114eac.svg";
 module.exports = "/man-snprintf.cc68f4ad.png";
 },{}],"components/slides/Server/doEcho.svg":[function(require,module,exports) {
 module.exports = "/doEcho.814fbe6e.svg";
+},{}],"components/slides/Server/doEchoAfter.svg":[function(require,module,exports) {
+module.exports = "/doEchoAfter.1ec019ff.svg";
+},{}],"components/slides/Server/sanitizeBuffer.svg":[function(require,module,exports) {
+module.exports = "/sanitizeBuffer.fe2c4b5f.svg";
+},{}],"components/slides/Server/sanitizeBufferAfter.svg":[function(require,module,exports) {
+module.exports = "/sanitizeBufferAfter.a52cfa59.svg";
 },{}],"components/slides/Server/Server.js":[function(require,module,exports) {
 "use strict";
 
@@ -37683,6 +37690,12 @@ var _manSnprintf = _interopRequireDefault(require("./man-snprintf.png"));
 
 var _doEcho = _interopRequireDefault(require("./doEcho.svg"));
 
+var _doEchoAfter = _interopRequireDefault(require("./doEchoAfter.svg"));
+
+var _sanitizeBuffer = _interopRequireDefault(require("./sanitizeBuffer.svg"));
+
+var _sanitizeBufferAfter = _interopRequireDefault(require("./sanitizeBufferAfter.svg"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var serverTitles = {
@@ -37692,7 +37705,7 @@ var serverTitles = {
     length: 1
   }, {
     title: "ECHO %x%x%x%x %x",
-    length: 2
+    length: 3
   }, {
     title: "Gestion des buffers",
     length: 2
@@ -37762,6 +37775,22 @@ var Server = function Server() {
   })), _react.default.createElement(_Slide.Slide, {
     "data-background-color": "#f6f8fa"
   }, _react.default.createElement("img", {
+    alt: "doEcho",
+    className: "".concat(_Server.default.doEcho),
+    src: _doEcho.default
+  }), _react.default.createElement("img", {
+    alt: "doEchoAfter",
+    className: "fragment ".concat(_Server.default.doEcho),
+    src: _doEchoAfter.default
+  })), _react.default.createElement(_Slide.Slide, {
+    "data-background-color": "#f6f8fa"
+  }, _react.default.createElement("img", {
+    alt: "sanitizeBuffer",
+    className: "".concat(_Server.default.sanitizeBuffer),
+    src: _sanitizeBuffer.default
+  })), _react.default.createElement(_Slide.Slide, {
+    "data-background-color": "#f6f8fa"
+  }, _react.default.createElement("img", {
     alt: "safeMessage",
     className: "".concat(_Server.default.safeMessage),
     src: _safeMessage.default
@@ -37827,11 +37856,21 @@ var Server = function Server() {
     alt: "pile",
     className: "fragment ".concat(_Server.default.pile_img),
     src: _pile15.default
+  })), _react.default.createElement(_Slide.Slide, {
+    "data-background-color": "#f6f8fa"
+  }, _react.default.createElement("img", {
+    alt: "sanitizeBuffer",
+    className: "".concat(_Server.default.sanitizeBuffer),
+    src: _sanitizeBuffer.default
+  }), _react.default.createElement("img", {
+    alt: "sanitizeBufferAfter",
+    className: "fragment ".concat(_Server.default.sanitizeBuffer),
+    src: _sanitizeBufferAfter.default
   })));
 };
 
 exports.Server = Server;
-},{"react":"../node_modules/react/index.js","./Server.css":"components/slides/Server/Server.css","../../Slide/Slide":"components/Slide/Slide.js","./server_buffer.svg":"components/slides/Server/server_buffer.svg","./server_client.svg":"components/slides/Server/server_client.svg","./server_command.svg":"components/slides/Server/server_command.svg","./server_default.svg":"components/slides/Server/server_default.svg","./server_echo.svg":"components/slides/Server/server_echo.svg","./server_exists.svg":"components/slides/Server/server_exists.svg","./server_get.svg":"components/slides/Server/server_get.svg","./server_main.svg":"components/slides/Server/server_main.svg","./server_put.svg":"components/slides/Server/server_put.svg","./server_quit.svg":"components/slides/Server/server_quit.svg","./server_server.svg":"components/slides/Server/server_server.svg","./pile0.svg":"components/slides/Server/pile0.svg","./pile1.svg":"components/slides/Server/pile1.svg","./pile2.svg":"components/slides/Server/pile2.svg","./pile3.svg":"components/slides/Server/pile3.svg","./pile4.svg":"components/slides/Server/pile4.svg","./pile5.svg":"components/slides/Server/pile5.svg","./pile6.svg":"components/slides/Server/pile6.svg","./pile7.svg":"components/slides/Server/pile7.svg","./pile8.svg":"components/slides/Server/pile8.svg","./pile9.svg":"components/slides/Server/pile9.svg","./pile10.svg":"components/slides/Server/pile10.svg","./pile11.svg":"components/slides/Server/pile11.svg","./pile12.svg":"components/slides/Server/pile12.svg","./pile13.svg":"components/slides/Server/pile13.svg","./pile14.svg":"components/slides/Server/pile14.svg","./safeMessage.svg":"components/slides/Server/safeMessage.svg","./man-snprintf.png":"components/slides/Server/man-snprintf.png","./doEcho.svg":"components/slides/Server/doEcho.svg"}],"components/slides/Payload/Payload.css":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./Server.css":"components/slides/Server/Server.css","../../Slide/Slide":"components/Slide/Slide.js","./server_buffer.svg":"components/slides/Server/server_buffer.svg","./server_client.svg":"components/slides/Server/server_client.svg","./server_command.svg":"components/slides/Server/server_command.svg","./server_default.svg":"components/slides/Server/server_default.svg","./server_echo.svg":"components/slides/Server/server_echo.svg","./server_exists.svg":"components/slides/Server/server_exists.svg","./server_get.svg":"components/slides/Server/server_get.svg","./server_main.svg":"components/slides/Server/server_main.svg","./server_put.svg":"components/slides/Server/server_put.svg","./server_quit.svg":"components/slides/Server/server_quit.svg","./server_server.svg":"components/slides/Server/server_server.svg","./pile0.svg":"components/slides/Server/pile0.svg","./pile1.svg":"components/slides/Server/pile1.svg","./pile2.svg":"components/slides/Server/pile2.svg","./pile3.svg":"components/slides/Server/pile3.svg","./pile4.svg":"components/slides/Server/pile4.svg","./pile5.svg":"components/slides/Server/pile5.svg","./pile6.svg":"components/slides/Server/pile6.svg","./pile7.svg":"components/slides/Server/pile7.svg","./pile8.svg":"components/slides/Server/pile8.svg","./pile9.svg":"components/slides/Server/pile9.svg","./pile10.svg":"components/slides/Server/pile10.svg","./pile11.svg":"components/slides/Server/pile11.svg","./pile12.svg":"components/slides/Server/pile12.svg","./pile13.svg":"components/slides/Server/pile13.svg","./pile14.svg":"components/slides/Server/pile14.svg","./safeMessage.svg":"components/slides/Server/safeMessage.svg","./man-snprintf.png":"components/slides/Server/man-snprintf.png","./doEcho.svg":"components/slides/Server/doEcho.svg","./doEchoAfter.svg":"components/slides/Server/doEchoAfter.svg","./sanitizeBuffer.svg":"components/slides/Server/sanitizeBuffer.svg","./sanitizeBufferAfter.svg":"components/slides/Server/sanitizeBufferAfter.svg"}],"components/slides/Payload/Payload.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -37971,10 +38010,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var demoTitles = {
   title: "Démonstration",
   subtitles: [{
-    title: "Fonctionnement",
-    length: 1
-  }, {
-    title: "Roulez jeunesse",
+    title: "",
     length: 1
   }]
 };
@@ -37982,70 +38018,12 @@ exports.demoTitles = demoTitles;
 
 var Demo = function Demo() {
   return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_Slide.Slide, {
-    "data-background-color": "#f6f8fa"
-  }, _react.default.createElement("h2", null, "TEST"), "- adresse -4 car (ECHO ) --- -5 mais le premier nop est mis \xE0 \\0"), _react.default.createElement(_Slide.Slide, {
-    "data-background-color": "#f6f8fa"
-  }, _react.default.createElement("h2", null, "TEST")));
-};
-
-exports.Demo = Demo;
-},{"react":"../node_modules/react/index.js","./Demo.css":"components/slides/Demo/Demo.css","../../Slide/Slide":"components/Slide/Slide.js"}],"components/slides/Recommendations/Recommendations.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-module.exports = {
-  "ghidra": "_ghidra_eb11b",
-  "payload": "_payload_eb11b",
-  "payload_transmission": "_payload_transmission_eb11b",
-  "payload_payload": "_payload_payload_eb11b",
-  "payload_data": "_payload_data_eb11b",
-  "payload_unknown": "_payload_unknown_eb11b",
-  "legend": "_legend_eb11b"
-};
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/Recommendations/Recommendations.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.Recommendations = exports.recommendationsTitles = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Recommendations = _interopRequireDefault(require("./Recommendations.css"));
-
-var _Slide = require("../../Slide/Slide");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var recommendationsTitles = {
-  title: "Recommendations",
-  subtitles: [{
-    title: "ECHO %x%x%x%x %x",
-    length: 1
-  }, {
-    title: "Gestions des buffers",
-    length: 1
-  }, {
-    title: "Bit NX",
-    length: 1
-  }]
-};
-exports.recommendationsTitles = recommendationsTitles;
-
-var Recommendations = function Recommendations() {
-  return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement(_Slide.Slide, {
-    "data-background-color": "#f6f8fa"
-  }), _react.default.createElement(_Slide.Slide, {
-    "data-background-color": "#f6f8fa"
-  }), _react.default.createElement(_Slide.Slide, {
-    "data-background-color": "#f6f8fa"
+    "data-background-color": "#555555"
   }));
 };
 
-exports.Recommendations = Recommendations;
-},{"react":"../node_modules/react/index.js","./Recommendations.css":"components/slides/Recommendations/Recommendations.css","../../Slide/Slide":"components/Slide/Slide.js"}],"components/App/App.js":[function(require,module,exports) {
+exports.Demo = Demo;
+},{"react":"../node_modules/react/index.js","./Demo.css":"components/slides/Demo/Demo.css","../../Slide/Slide":"components/Slide/Slide.js"}],"components/App/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -38075,8 +38053,6 @@ var _Payload = require("../slides/Payload/Payload");
 
 var _Demo = require("../slides/Demo/Demo");
 
-var _Recommendations = require("../slides/Recommendations/Recommendations");
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
@@ -38102,10 +38078,10 @@ var App = function App() {
   }, _react.default.createElement(_Header.Header, {
     slideIndex: slideIndex,
     hideOnSlides: hideBarsOnSlides,
-    titles: [_Network.networkTitles, _Payload.payloadTitles, _Server.serverTitles, _Demo.demoTitles, _Recommendations.recommendationsTitles]
+    titles: [_Network.networkTitles, _Payload.payloadTitles, _Server.serverTitles, _Demo.demoTitles]
   }), _react.default.createElement("div", {
     className: "slides"
-  }, _react.default.createElement(_Title.Title, null), _react.default.createElement(_Network.Network, null), _react.default.createElement(_Payload.Payload, null), _react.default.createElement(_Server.Server, null), _react.default.createElement(_Demo.Demo, null), _react.default.createElement(_Recommendations.Recommendations, null), _react.default.createElement(_End.End, null)), _react.default.createElement(_Footer.Footer, {
+  }, _react.default.createElement(_Title.Title, null), _react.default.createElement(_Network.Network, null), _react.default.createElement(_Payload.Payload, null), _react.default.createElement(_Server.Server, null), _react.default.createElement(_Demo.Demo, null), _react.default.createElement(_End.End, null)), _react.default.createElement(_Footer.Footer, {
     slideIndex: slideIndex,
     hideOnSlides: hideBarsOnSlides
   })));
@@ -38128,7 +38104,7 @@ var useSlideIndex = function useSlideIndex() {
   }, []);
   return slideIndex;
 };
-},{"react":"../node_modules/react/index.js","./App.css":"components/App/App.css","../slides/Title/Title":"components/slides/Title/Title.js","../Footer/Footer":"components/Footer/Footer.js","../Header/Header":"components/Header/Header.js","reveal.js":"../node_modules/reveal.js/js/reveal.js","../slides/Network/Network":"components/slides/Network/Network.js","../slides/End/End":"components/slides/End/End.js","../slides/Server/Server":"components/slides/Server/Server.js","../slides/Payload/Payload":"components/slides/Payload/Payload.js","../slides/Demo/Demo":"components/slides/Demo/Demo.js","../slides/Recommendations/Recommendations":"components/slides/Recommendations/Recommendations.js"}],"index.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./App.css":"components/App/App.css","../slides/Title/Title":"components/slides/Title/Title.js","../Footer/Footer":"components/Footer/Footer.js","../Header/Header":"components/Header/Header.js","reveal.js":"../node_modules/reveal.js/js/reveal.js","../slides/Network/Network":"components/slides/Network/Network.js","../slides/End/End":"components/slides/End/End.js","../slides/Server/Server":"components/slides/Server/Server.js","../slides/Payload/Payload":"components/slides/Payload/Payload.js","../slides/Demo/Demo":"components/slides/Demo/Demo.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -38191,7 +38167,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38003" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42227" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
