@@ -37708,7 +37708,7 @@ var serverTitles = {
     length: 3
   }, {
     title: "Gestion des buffers",
-    length: 2
+    length: 4
   }]
 };
 exports.serverTitles = serverTitles;
@@ -37882,10 +37882,29 @@ module.exports = {
   "payload_payload": "_payload_payload_2a179",
   "payload_data": "_payload_data_2a179",
   "payload_unknown": "_payload_unknown_2a179",
-  "legend": "_legend_2a179"
+  "legend": "_legend_2a179",
+  "binsh": "_binsh_2a179"
 };
 },{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/Payload/ghidra.png":[function(require,module,exports) {
 module.exports = "/ghidra.b394c361.png";
+},{}],"components/slides/Payload/bin_sh0.svg":[function(require,module,exports) {
+module.exports = "/bin_sh0.69d31d93.svg";
+},{}],"components/slides/Payload/bin_sh1.svg":[function(require,module,exports) {
+module.exports = "/bin_sh1.c9a11783.svg";
+},{}],"components/slides/Payload/bin_sh2.svg":[function(require,module,exports) {
+module.exports = "/bin_sh2.708f4ddf.svg";
+},{}],"components/slides/Payload/bin_sh3.svg":[function(require,module,exports) {
+module.exports = "/bin_sh3.9d8be74d.svg";
+},{}],"components/slides/Payload/bin_sh4.svg":[function(require,module,exports) {
+module.exports = "/bin_sh4.5c5bc753.svg";
+},{}],"components/slides/Payload/bin_sh5.svg":[function(require,module,exports) {
+module.exports = "/bin_sh5.5362d20a.svg";
+},{}],"components/slides/Payload/bin_sh6.svg":[function(require,module,exports) {
+module.exports = "/bin_sh6.ce790508.svg";
+},{}],"components/slides/Payload/bin_sh7.svg":[function(require,module,exports) {
+module.exports = "/bin_sh7.65c606e2.svg";
+},{}],"components/slides/Payload/bin_sh8.svg":[function(require,module,exports) {
+module.exports = "/bin_sh8.ad38e251.svg";
 },{}],"components/slides/Payload/Payload.js":[function(require,module,exports) {
 "use strict";
 
@@ -37902,6 +37921,24 @@ var _Slide = require("../../Slide/Slide");
 
 var _ghidra = _interopRequireDefault(require("./ghidra.png"));
 
+var _bin_sh = _interopRequireDefault(require("./bin_sh0.svg"));
+
+var _bin_sh2 = _interopRequireDefault(require("./bin_sh1.svg"));
+
+var _bin_sh3 = _interopRequireDefault(require("./bin_sh2.svg"));
+
+var _bin_sh4 = _interopRequireDefault(require("./bin_sh3.svg"));
+
+var _bin_sh5 = _interopRequireDefault(require("./bin_sh4.svg"));
+
+var _bin_sh6 = _interopRequireDefault(require("./bin_sh5.svg"));
+
+var _bin_sh7 = _interopRequireDefault(require("./bin_sh6.svg"));
+
+var _bin_sh8 = _interopRequireDefault(require("./bin_sh7.svg"));
+
+var _bin_sh9 = _interopRequireDefault(require("./bin_sh8.svg"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var payloadTitles = {
@@ -37911,7 +37948,7 @@ var payloadTitles = {
     length: 1
   }, {
     title: "Analyse Ghidra",
-    length: 1
+    length: 2
   }]
 };
 exports.payloadTitles = payloadTitles;
@@ -37979,11 +38016,47 @@ var Payload = function Payload() {
     className: _Payload.default.ghidra,
     alt: "ghidra",
     src: _ghidra.default
+  })), _react.default.createElement(_Slide.Slide, null, _react.default.createElement("img", {
+    alt: "binsh",
+    className: "".concat(_Payload.default.binsh),
+    src: _bin_sh.default
+  }), _react.default.createElement("img", {
+    alt: "binsh",
+    className: "fragment ".concat(_Payload.default.binsh),
+    src: _bin_sh2.default
+  }), _react.default.createElement("img", {
+    alt: "binsh",
+    className: "fragment ".concat(_Payload.default.binsh),
+    src: _bin_sh3.default
+  }), _react.default.createElement("img", {
+    alt: "binsh",
+    className: "fragment ".concat(_Payload.default.binsh),
+    src: _bin_sh4.default
+  }), _react.default.createElement("img", {
+    alt: "binsh",
+    className: "fragment ".concat(_Payload.default.binsh),
+    src: _bin_sh5.default
+  }), _react.default.createElement("img", {
+    alt: "binsh",
+    className: "fragment ".concat(_Payload.default.binsh),
+    src: _bin_sh6.default
+  }), _react.default.createElement("img", {
+    alt: "binsh",
+    className: "fragment ".concat(_Payload.default.binsh),
+    src: _bin_sh7.default
+  }), _react.default.createElement("img", {
+    alt: "binsh",
+    className: "fragment ".concat(_Payload.default.binsh),
+    src: _bin_sh8.default
+  }), _react.default.createElement("img", {
+    alt: "binsh",
+    className: "fragment ".concat(_Payload.default.binsh),
+    src: _bin_sh9.default
   })));
 };
 
 exports.Payload = Payload;
-},{"react":"../node_modules/react/index.js","./Payload.css":"components/slides/Payload/Payload.css","../../Slide/Slide":"components/Slide/Slide.js","./ghidra.png":"components/slides/Payload/ghidra.png"}],"components/slides/Demo/Demo.css":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./Payload.css":"components/slides/Payload/Payload.css","../../Slide/Slide":"components/Slide/Slide.js","./ghidra.png":"components/slides/Payload/ghidra.png","./bin_sh0.svg":"components/slides/Payload/bin_sh0.svg","./bin_sh1.svg":"components/slides/Payload/bin_sh1.svg","./bin_sh2.svg":"components/slides/Payload/bin_sh2.svg","./bin_sh3.svg":"components/slides/Payload/bin_sh3.svg","./bin_sh4.svg":"components/slides/Payload/bin_sh4.svg","./bin_sh5.svg":"components/slides/Payload/bin_sh5.svg","./bin_sh6.svg":"components/slides/Payload/bin_sh6.svg","./bin_sh7.svg":"components/slides/Payload/bin_sh7.svg","./bin_sh8.svg":"components/slides/Payload/bin_sh8.svg"}],"components/slides/Demo/Demo.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -38067,7 +38140,7 @@ function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) ||
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
-var hideBarsOnSlides = [0, 14]; // TODO
+var hideBarsOnSlides = [0, 15]; // TODO
 
 var App = function App() {
   var slideIndex = useSlideIndex();
@@ -38167,7 +38240,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42227" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46435" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

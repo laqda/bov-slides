@@ -2313,6 +2313,17 @@ body {
 ._legend_2a179 > * {
     flex: 1;
 }
+
+._binsh_2a179 {
+    background: none !important;
+    box-shadow: none !important;
+    max-height: none !important;
+    width: 25vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: 50px !important;
+}
 ._server_img_fae0c {
     max-width: none !important;
     max-height: none !important;
