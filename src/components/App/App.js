@@ -10,7 +10,7 @@ import {Server, serverTitles} from "../slides/Server/Server";
 import {Payload, payloadTitles} from "../slides/Payload/Payload";
 import {Demo, demoTitles} from "../slides/Demo/Demo";
 
-const hideBarsOnSlides = [0, 14]; // TODO
+const hideBarsOnSlides = [0, 15]; // TODO
 
 export const App = () => {
   const slideIndex = useSlideIndex();
