@@ -37167,7 +37167,7 @@ var Title = function Title() {
     "data-background-color": "#222"
   }, _react.default.createElement("h1", {
     className: _Title.default.title
-  }, _react.default.createElement("mark", null, "R\xE9sultats d'\xE9tude")), _react.default.createElement("div", null, "Pressoare"), _react.default.createElement("div", {
+  }, "R\xE9sultats ", _react.default.createElement("mark", null, "d'\xE9tude")), _react.default.createElement("div", null, "Pressoare"), _react.default.createElement("div", {
     className: _Title.default.names
   }, _react.default.createElement("b", null, "Marianne FAURE"), " & ", _react.default.createElement("b", null, "Quentin MICHEL"), _react.default.createElement("br", null), _react.default.createElement("span", {
     className: _Title.default.link
@@ -38250,7 +38250,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42715" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36337" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

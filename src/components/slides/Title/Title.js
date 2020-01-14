@@ -6,7 +6,7 @@ export const Title = () => {
   return (
     <Slide data-background-color="#222">
       <h1 className={styles.title}>
-        <mark>Résultats d'étude</mark>
+        Résultats <mark>d'étude</mark>
       </h1>
       <div>
         Pressoare
