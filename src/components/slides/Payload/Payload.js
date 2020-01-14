@@ -2,6 +2,15 @@ import React from "react";
 import styles from "./Payload.css";
 import {Slide} from "../../Slide/Slide";
 import ghidra from "./ghidra.png";
+import binsh0 from './bin_sh0.svg';
+import binsh1 from './bin_sh1.svg';
+import binsh2 from './bin_sh2.svg';
+import binsh3 from './bin_sh3.svg';
+import binsh4 from './bin_sh4.svg';
+import binsh5 from './bin_sh5.svg';
+import binsh6 from './bin_sh6.svg';
+import binsh7 from './bin_sh7.svg';
+import binsh8 from './bin_sh8.svg';
 
 export const payloadTitles = {
   title: "Payload",
@@ -12,7 +21,7 @@ export const payloadTitles = {
     },
     {
       title: "Analyse Ghidra",
-      length: 1,
+      length: 2,
     },
   ],
 };
@@ -50,6 +59,17 @@ export const Payload = () => {
       </Slide>
       <Slide data-background-color="#f6f8fa">
         <img className={styles.ghidra} alt="ghidra" src={ghidra}/>
+      </Slide>
+      <Slide>
+        <img alt="binsh" className={`${styles.binsh}`} src={binsh0}/>
+        <img alt="binsh" className={`fragment ${styles.binsh}`} src={binsh1}/>
+        <img alt="binsh" className={`fragment ${styles.binsh}`} src={binsh2}/>
+        <img alt="binsh" className={`fragment ${styles.binsh}`} src={binsh3}/>
+        <img alt="binsh" className={`fragment ${styles.binsh}`} src={binsh4}/>
+        <img alt="binsh" className={`fragment ${styles.binsh}`} src={binsh5}/>
+        <img alt="binsh" className={`fragment ${styles.binsh}`} src={binsh6}/>
+        <img alt="binsh" className={`fragment ${styles.binsh}`} src={binsh7}/>
+        <img alt="binsh" className={`fragment ${styles.binsh}`} src={binsh8}/>
       </Slide>
     </React.Fragment>
   );
