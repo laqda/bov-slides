@@ -29,6 +29,7 @@ import pile13 from "./pile13.svg"
 import pile14 from "./pile14.svg"
 import safeMessage from "./safeMessage.svg"
 import man_snprintf from "./man-snprintf.png"
+import doEcho from './doEcho.svg'
 
 export const serverTitles = {
   title: "Analyse serveur",
@@ -39,7 +40,7 @@ export const serverTitles = {
     },
     {
       title: "ECHO %x%x%x%x %x",
-      length: 1,
+      length: 2,
     },
     {
       title: "Gestion des buffers",
@@ -64,8 +65,12 @@ export const Server = () => {
         <img alt="server" className={`fragment ${styles.server_img}`} src={server_quit}/>
         <img alt="server" className={`fragment ${styles.server_img}`} src={server_echo}/>
       </Slide>
+      <Slide data-background-color="#f6f8fa">
+        <img alt="doEcho" className={`${styles.doEcho}`} src={doEcho}/>
+      </Slide>
       <Slide data-background-color="#000">
         <img alt="man" className={styles.man} src={man_snprintf}/>
+        {/* variatique */}
       </Slide>
       <Slide data-background-color="#f6f8fa">
         <img alt="safeMessage" className={`${styles.safeMessage}`} src={safeMessage}/>

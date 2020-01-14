@@ -28,7 +28,13 @@
 .safeMessage {
     background: none !important;
     box-shadow: none !important;
-    width: 30vw;
+    width: 25vw;
+}
+
+.doEcho {
+    background: none !important;
+    box-shadow: none !important;
+    width: 35vw;
 }
 
 .man {
